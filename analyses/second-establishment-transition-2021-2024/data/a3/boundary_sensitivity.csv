@@ -1,0 +1,11 @@
+metric,value,unit
+boundary_change_events,20,events
+unique_pairs,18,pairs
+connected_components,17,components
+affected_analysis_units,35,analysis_units
+component_industry_combinations,153,combinations
+mixed_sign_combinations,23,combinations
+zero_sum_combinations,46,combinations
+mixed_sign_and_zero_sum,6,combinations
+max_abs_down_2_to_le1_difference_pt,0.74,percentage_points
+max_abs_up_1_to_ge2_difference_pt,0.66,percentage_points
