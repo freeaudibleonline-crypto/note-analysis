@@ -1,0 +1,7 @@
+claim_id,field,before_value,after_value,reason,source_version,target_version
+V31-SMALL-DECISION-MARGIN-MEDIAN,unit,%,percentage_points,増加率同士の差をpercentではなくpercentage_pointsへ訂正,2026Q1_v3_1,2026Q1_v3_2
+V31-SMALL-DECISION-MARGIN-MEDIAN,display_value,11.3%,11.3ポイント,日本語表示を増加率同士の差に対応するポイント表記へ訂正,2026Q1_v3_1,2026Q1_v3_2
+V31-MIDDLE-DECISION-MARGIN-MEDIAN,unit,%,percentage_points,増加率同士の差をpercentではなくpercentage_pointsへ訂正,2026Q1_v3_1,2026Q1_v3_2
+V31-MIDDLE-DECISION-MARGIN-MEDIAN,display_value,9.0%,9.0ポイント,日本語表示を増加率同士の差に対応するポイント表記へ訂正,2026Q1_v3_1,2026Q1_v3_2
+V31-LARGE-DECISION-MARGIN-MEDIAN,unit,%,percentage_points,増加率同士の差をpercentではなくpercentage_pointsへ訂正,2026Q1_v3_1,2026Q1_v3_2
+V31-LARGE-DECISION-MARGIN-MEDIAN,display_value,8.5%,8.5ポイント,日本語表示を増加率同士の差に対応するポイント表記へ訂正,2026Q1_v3_1,2026Q1_v3_2

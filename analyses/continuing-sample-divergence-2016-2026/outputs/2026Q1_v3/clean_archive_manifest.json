@@ -1,0 +1,383 @@
+{
+  "clean_package": {
+    "archive_sha256_policy": "reported by package command; not recursively embedded in its own archive",
+    "command": "make package-v3",
+    "excluded": [
+      "__MACOSX",
+      "__pycache__",
+      ".DS_Store",
+      ".pytest_cache",
+      "アーカイブ.zip",
+      "destination_zip_itself"
+    ],
+    "path": "outputs/2026Q1_v3/corporate_quarterly_2026Q1_v3_clean.zip"
+  },
+  "continuing_sample_limitations": {
+    "profit_standard_error": "営業利益及び経常利益については、標準誤差率の算出は行っていない。",
+    "small_sample": "継続標本のみを用い母集団推計を行うため、本系列に比べサンプルサイズが小さくなる。"
+  },
+  "frozen_outputs": {
+    "combined_file_count": 38,
+    "combined_inventory_sha256": "885516ec9fb90a5b7dda680d08b8393f2ebf66cf455fe99e7d0bb6863fc5ca8b",
+    "hash_algorithm": "SHA-256",
+    "outputs_mutated": false,
+    "path_base": "project_root",
+    "releases": {
+      "v1": {
+        "file_count": 14,
+        "files": [
+          {
+            "bytes": 7610,
+            "path": "outputs/2026Q1/article.md",
+            "sha256": "bdb0465a3ddee47312c5bab422c84617d2df3ff4da5c15300421ab617462a22b"
+          },
+          {
+            "bytes": 27930,
+            "path": "outputs/2026Q1/audit_report.md",
+            "sha256": "0580401710b792ce77665d28c43bf0080117b9e53bed55a72abd2cf78aee8ca0"
+          },
+          {
+            "bytes": 8577,
+            "path": "outputs/2026Q1/capital_size_contributions.csv",
+            "sha256": "149d1a526408cd9797b4fc46848ca1ab64fc223a41dda20de19db5e300a7c5db"
+          },
+          {
+            "bytes": 81850,
+            "path": "outputs/2026Q1/charts/allocation_growth.png",
+            "sha256": "eabb7fb771d95b965ddc6d55b58d496094a48a083b1f0873277ca657df16abe4"
+          },
+          {
+            "bytes": 91360,
+            "path": "outputs/2026Q1/charts/capex_software_bridge.png",
+            "sha256": "c8279c3dd17cceffdf43ad8feaa808e2f97be6b0c1cbbb82f4506d8cfe4085c2"
+          },
+          {
+            "bytes": 78508,
+            "path": "outputs/2026Q1/charts/operating_profit_capital_contribution.png",
+            "sha256": "8f3438747acb46737ac29a948dd2061e47564d23a28d536c3507427b8a57350f"
+          },
+          {
+            "bytes": 151555,
+            "path": "outputs/2026Q1/charts/operating_profit_industry_contribution.png",
+            "sha256": "4a5708ac5457c255df3837ebf81b6de879343cc28ad80f313ae4ea5517422428"
+          },
+          {
+            "bytes": 99396,
+            "path": "outputs/2026Q1/charts/profit_margin_and_gap.png",
+            "sha256": "d37a0c861501c681fda5c10d26092daf64a7e0923233ff9310fcaa60406a3570"
+          },
+          {
+            "bytes": 25672,
+            "path": "outputs/2026Q1/claims.csv",
+            "sha256": "fbbe26baadce5883cfbff8aa41bc2f3634d6290c52c475b82622d32d045bb727"
+          },
+          {
+            "bytes": 15750,
+            "path": "outputs/2026Q1/data_manifest.json",
+            "sha256": "b6b6df9755019398c427f0ad177f47fdcb73dab829b92aec4ae940021806c9f5"
+          },
+          {
+            "bytes": 15161,
+            "path": "outputs/2026Q1/data_quality_log.json",
+            "sha256": "af8c54ca481f9062f4b0ddd59046b9c3bb770cabf5c497ddb7e5bb1844e9a4a1"
+          },
+          {
+            "bytes": 612,
+            "path": "outputs/2026Q1/industry_concentration.csv",
+            "sha256": "9bbdd2b21857824fa31c8238ceba65e67b7db2be457ee94d006b17e7cc372a9b"
+          },
+          {
+            "bytes": 31266,
+            "path": "outputs/2026Q1/industry_contributions.csv",
+            "sha256": "568f871a4b368203ea0a527c9ce2c8ae227ded95b39f72a29bf1e8ce725e414e"
+          },
+          {
+            "bytes": 987621,
+            "path": "outputs/2026Q1/processed_quarterly.parquet",
+            "sha256": "7763f7f8523d30a36aca0f22a35fb4d4e5d35eaf0f6d8880753096ce2534a709"
+          }
+        ],
+        "inventory_sha256": "815bc636ad3725c80389b40b63dc567a1969e2382ec57544c9b73214a8b10914",
+        "root": "outputs/2026Q1",
+        "total_bytes": 1622868
+      },
+      "v2": {
+        "file_count": 24,
+        "files": [
+          {
+            "bytes": 2513,
+            "path": "outputs/2026Q1_v2/audit_v2.md",
+            "sha256": "0d84fd2b42e1a7e851387c37cd4acc5a18ab647978f36ef04fc6dddf65fb9fb6"
+          },
+          {
+            "bytes": 1093,
+            "path": "outputs/2026Q1_v2/candidate_headlines.md",
+            "sha256": "89a2f8a9ba776b562916ffbed80331bf70b87e013d5f8bd0a6c71c5404f7775b"
+          },
+          {
+            "bytes": 1388,
+            "path": "outputs/2026Q1_v2/capital_margin_bridge.csv",
+            "sha256": "eab214d30fe63463c0488b38633d7165b027231402a5069efc18a878012394c2"
+          },
+          {
+            "bytes": 52371,
+            "path": "outputs/2026Q1_v2/cell_margin_bridge.csv",
+            "sha256": "4e3de2d028352ff1aed5025feba519333fe4d8a0e3337bc48e14167169f4ed10"
+          },
+          {
+            "bytes": 524639,
+            "path": "outputs/2026Q1_v2/charts/historical_candidate_position.png",
+            "sha256": "8d3699980a7449bf9bda35b35970003f0ea75cef4269228a6d212dd8d9289dc7"
+          },
+          {
+            "bytes": 79758,
+            "path": "outputs/2026Q1_v2/charts/operating_margin_change_by_capital.png",
+            "sha256": "c01deb50b70cf72bf9b8579f413111884e3222297c8dae0d553a5231b264d7f8"
+          },
+          {
+            "bytes": 77859,
+            "path": "outputs/2026Q1_v2/charts/ordinary_operating_gap_decomposition.png",
+            "sha256": "9129e8d9cbd82b51c99ba43033e6654c299f1364678b18511040f774bfaef470"
+          },
+          {
+            "bytes": 180878,
+            "path": "outputs/2026Q1_v2/charts/ordinary_profit_industry_x_capital_waterfall.png",
+            "sha256": "94ec07cd407611e7b44538064a2aa4b40b24d269f090332902a151daa06c1dec"
+          },
+          {
+            "bytes": 247431,
+            "path": "outputs/2026Q1_v2/charts/software_capex_industry_x_capital.png",
+            "sha256": "bb2e45f1b13374cbe1b566c0c4cee69f39931b0b6b4a9f3d4ed25411f0dd8c0f"
+          },
+          {
+            "bytes": 20065,
+            "path": "outputs/2026Q1_v2/claims_v2.csv",
+            "sha256": "3b60537664c90b8f1d3b4a7ad78f5459ab358a51fa59cd0613fa06901c6e4933"
+          },
+          {
+            "bytes": 1804,
+            "path": "outputs/2026Q1_v2/data_manifest_v2.json",
+            "sha256": "3202bf0defcb972eefffb563f776a9e0949a36415215d5111ad8a528c2f3df9b"
+          },
+          {
+            "bytes": 1279,
+            "path": "outputs/2026Q1_v2/decision.md",
+            "sha256": "0d67a759865f9edca7bf66725715a0c2ed867e01f7a7059fb3d44139389c109a"
+          },
+          {
+            "bytes": 7202,
+            "path": "outputs/2026Q1_v2/external_evidence_ledger.csv",
+            "sha256": "a937be8d4cc1f5ac9fa18f393dcc1f7b65a3a381a67fe3057c70ed3119d7f8b5"
+          },
+          {
+            "bytes": 102203,
+            "path": "outputs/2026Q1_v2/historical_candidate_series.parquet",
+            "sha256": "3b7d1224907ef18bf259d9a3a5b08bcd18db23f70123e6e096f2e0ec42be0905"
+          },
+          {
+            "bytes": 1502392,
+            "path": "outputs/2026Q1_v2/historical_quarterly.parquet",
+            "sha256": "8c4c8dfb851b822bd5ea2292916e5424c0c9c4adcf9fed411ff9c9a094dfde37"
+          },
+          {
+            "bytes": 4054,
+            "path": "outputs/2026Q1_v2/historical_robustness.csv",
+            "sha256": "75822afd55ed4991ee90a9218cf8d8ae895c9d710a05f74b0f3f34811cf69951"
+          },
+          {
+            "bytes": 73180,
+            "path": "outputs/2026Q1_v2/industry_leaf_contributions.csv",
+            "sha256": "3fed06fa8746cb6cb37ea8f9353a674e94873b31f2ee4a22c3e2ba80b0a0f332"
+          },
+          {
+            "bytes": 18788,
+            "path": "outputs/2026Q1_v2/industry_major_contributions.csv",
+            "sha256": "8ff1efbb1208aae4b58396e13868026502835cf606c9bc2c53c9e0ec397fb2e7"
+          },
+          {
+            "bytes": 137589,
+            "path": "outputs/2026Q1_v2/industry_x_capital_contributions.csv",
+            "sha256": "045a201dbdb4f799ce06c12023b34e16c827e31c69446bcddc5f4283da097a7d"
+          },
+          {
+            "bytes": 84342,
+            "path": "outputs/2026Q1_v2/ordinary_operating_gap.csv",
+            "sha256": "9c9b4430ff4c9c13bcf3d077ef7b030dcfae6621c8018210997402f35261d38f"
+          },
+          {
+            "bytes": 1867,
+            "path": "outputs/2026Q1_v2/pattern_decisions.csv",
+            "sha256": "5c9aa7cbe779f3f84ab87602577f7b9d4f26a8b3949677354f414745b850c51b"
+          },
+          {
+            "bytes": 3549,
+            "path": "outputs/2026Q1_v2/phase0_reproduction.md",
+            "sha256": "4c22cf5c77cb884e34738c6ec2c68c2d68b7c48efbd788aa5f3e94fe270e7bdc"
+          },
+          {
+            "bytes": 254000,
+            "path": "outputs/2026Q1_v2/phase1_additivity_checks.csv",
+            "sha256": "9d90746625335591af5c78eb2eedf69403e8d0518dd22b603b9e3bb572066988"
+          },
+          {
+            "bytes": 102146,
+            "path": "outputs/2026Q1_v2/software_capex_decomposition.csv",
+            "sha256": "e9071372429ab1d8f6a81d13fadd32b1490ac2963d1666db389675d9e1cd1787"
+          }
+        ],
+        "inventory_sha256": "5d70d458583f42ea487968bbbd22f233ee41c6b85a1123d790fbf3ce7222568c",
+        "root": "outputs/2026Q1_v2",
+        "total_bytes": 3482390
+      }
+    },
+    "repository_required_structure": [
+      {
+        "observed_kind": "directory",
+        "path": "config",
+        "required_kind": "directory",
+        "status": "PASS"
+      },
+      {
+        "observed_kind": "directory",
+        "path": "data/raw",
+        "required_kind": "directory",
+        "status": "PASS"
+      },
+      {
+        "observed_kind": "directory",
+        "path": "outputs/2026Q1",
+        "required_kind": "directory",
+        "status": "PASS"
+      },
+      {
+        "observed_kind": "directory",
+        "path": "outputs/2026Q1_v2",
+        "required_kind": "directory",
+        "status": "PASS"
+      },
+      {
+        "observed_kind": "directory",
+        "path": "src",
+        "required_kind": "directory",
+        "status": "PASS"
+      },
+      {
+        "observed_kind": "directory",
+        "path": "tests",
+        "required_kind": "directory",
+        "status": "PASS"
+      },
+      {
+        "observed_kind": "file",
+        "path": "README.md",
+        "required_kind": "file",
+        "status": "PASS"
+      },
+      {
+        "observed_kind": "file",
+        "path": "pyproject.toml",
+        "required_kind": "file",
+        "status": "PASS"
+      },
+      {
+        "observed_kind": "file",
+        "path": "requirements.lock",
+        "required_kind": "file",
+        "status": "PASS"
+      }
+    ],
+    "schema_version": 1,
+    "scope": "ALL_FILES_UNDER_FROZEN_V1_AND_V2_OUTPUT_ROOTS"
+  },
+  "generated_at": "2026-08-25T21:00:32.336744+00:00",
+  "hash_algorithm": "SHA-256",
+  "nonoperating_raw_manifest": {
+    "path": "data/raw/non_operating_2026Q1/data_manifest.json",
+    "sha256": "952a401b2f144b12b67dcfb0fcca86e4cc8f27502326520a95dbf40e02d3678b",
+    "source_count": 13
+  },
+  "pytest": {
+    "baseline_collection_count": 95,
+    "code_or_data_failure_class": "CODE_OR_DATA_FAILURE",
+    "current_collection_count": 166,
+    "dependency_failure_class": "DEPENDENCY_FAILURE"
+  },
+  "repository_required_inventory": [
+    {
+      "observed_kind": "directory",
+      "path": "config",
+      "required_kind": "directory",
+      "status": "PASS"
+    },
+    {
+      "observed_kind": "directory",
+      "path": "data/raw",
+      "required_kind": "directory",
+      "status": "PASS"
+    },
+    {
+      "observed_kind": "directory",
+      "path": "outputs/2026Q1",
+      "required_kind": "directory",
+      "status": "PASS"
+    },
+    {
+      "observed_kind": "directory",
+      "path": "outputs/2026Q1_v2",
+      "required_kind": "directory",
+      "status": "PASS"
+    },
+    {
+      "observed_kind": "directory",
+      "path": "src",
+      "required_kind": "directory",
+      "status": "PASS"
+    },
+    {
+      "observed_kind": "directory",
+      "path": "tests",
+      "required_kind": "directory",
+      "status": "PASS"
+    },
+    {
+      "observed_kind": "file",
+      "path": "README.md",
+      "required_kind": "file",
+      "status": "PASS"
+    },
+    {
+      "observed_kind": "file",
+      "path": "pyproject.toml",
+      "required_kind": "file",
+      "status": "PASS"
+    },
+    {
+      "observed_kind": "file",
+      "path": "requirements.lock",
+      "required_kind": "file",
+      "status": "PASS"
+    }
+  ],
+  "schema_version": 1,
+  "scope": "FROZEN_V1_V2_ALL_FILES_AND_CLEAN_V3_PACKAGE_POLICY",
+  "source_archive": {
+    "initial_observation_bytes": 7084138,
+    "initial_required_structure_status": "PASS",
+    "junk_member_count": 186,
+    "member_count": 294,
+    "path": "アーカイブ.zip",
+    "required_path_status": {
+      "README.md": false,
+      "config": false,
+      "data/raw": false,
+      "outputs/2026Q1": false,
+      "outputs/2026Q1_v2": false,
+      "pyproject.toml": false,
+      "requirements.lock": false,
+      "src": false,
+      "tests": false
+    },
+    "sha256": null,
+    "status": "INSPECTED_COMPLETE_AT_PHASE0_START_THEN_BECAME_UNAVAILABLE;REPOSITORY_INVENTORY_USED_FOR_FINAL_GATE"
+  }
+}

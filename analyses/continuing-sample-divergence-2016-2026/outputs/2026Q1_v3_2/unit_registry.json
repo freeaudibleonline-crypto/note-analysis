@@ -1,0 +1,377 @@
+{
+  "canonical_unit_by_metric_type": {
+    "count": "count",
+    "currency": "oku_yen",
+    "currency_threshold_yen": "yen",
+    "deadband_threshold": "percent",
+    "difference_between_growth_rates": "percentage_points",
+    "direction_mismatch_rate": "percent",
+    "implied_relative_margin_change": "percent",
+    "yoy_growth_rate": "percent"
+  },
+  "claim_id_registry": {
+    "V31-CENSUS-THRESHOLD": {
+      "canonical_unit": "yen",
+      "metric_id": "regular_series_census_threshold",
+      "metric_type": "currency_threshold_yen"
+    },
+    "V31-COMPOSITE-HEADLINE-MISMATCH": {
+      "canonical_unit": "percent",
+      "metric_id": "composite_headline_support_mismatch",
+      "metric_type": "direction_mismatch_rate"
+    },
+    "V31-DEADBAND-LARGE-D005": {
+      "canonical_unit": "percent",
+      "metric_id": "deadband_margin_direction_mismatch",
+      "metric_type": "direction_mismatch_rate"
+    },
+    "V31-DEADBAND-LARGE-D010": {
+      "canonical_unit": "percent",
+      "metric_id": "deadband_margin_direction_mismatch",
+      "metric_type": "direction_mismatch_rate"
+    },
+    "V31-DEADBAND-LARGE-D020": {
+      "canonical_unit": "percent",
+      "metric_id": "deadband_margin_direction_mismatch",
+      "metric_type": "direction_mismatch_rate"
+    },
+    "V31-DEADBAND-LARGE-D030": {
+      "canonical_unit": "percent",
+      "metric_id": "deadband_margin_direction_mismatch",
+      "metric_type": "direction_mismatch_rate"
+    },
+    "V31-DEADBAND-MIDDLE-D005": {
+      "canonical_unit": "percent",
+      "metric_id": "deadband_margin_direction_mismatch",
+      "metric_type": "direction_mismatch_rate"
+    },
+    "V31-DEADBAND-MIDDLE-D010": {
+      "canonical_unit": "percent",
+      "metric_id": "deadband_margin_direction_mismatch",
+      "metric_type": "direction_mismatch_rate"
+    },
+    "V31-DEADBAND-MIDDLE-D020": {
+      "canonical_unit": "percent",
+      "metric_id": "deadband_margin_direction_mismatch",
+      "metric_type": "direction_mismatch_rate"
+    },
+    "V31-DEADBAND-MIDDLE-D030": {
+      "canonical_unit": "percent",
+      "metric_id": "deadband_margin_direction_mismatch",
+      "metric_type": "direction_mismatch_rate"
+    },
+    "V31-DEADBAND-SMALL-D005": {
+      "canonical_unit": "percent",
+      "metric_id": "deadband_margin_direction_mismatch",
+      "metric_type": "direction_mismatch_rate"
+    },
+    "V31-DEADBAND-SMALL-D010": {
+      "canonical_unit": "percent",
+      "metric_id": "deadband_margin_direction_mismatch",
+      "metric_type": "direction_mismatch_rate"
+    },
+    "V31-DEADBAND-SMALL-D020": {
+      "canonical_unit": "percent",
+      "metric_id": "deadband_margin_direction_mismatch",
+      "metric_type": "direction_mismatch_rate"
+    },
+    "V31-DEADBAND-SMALL-D030": {
+      "canonical_unit": "percent",
+      "metric_id": "deadband_margin_direction_mismatch",
+      "metric_type": "direction_mismatch_rate"
+    },
+    "V31-EXTREME-YOY-FLAGGED": {
+      "canonical_unit": "count",
+      "metric_id": "extreme_yoy_rate_gt_100_count",
+      "metric_type": "count"
+    },
+    "V31-EXTREME-YOY-MISMATCH": {
+      "canonical_unit": "count",
+      "metric_id": "extreme_yoy_flagged_mismatch_count",
+      "metric_type": "count"
+    },
+    "V31-EXTREME-YOY-THRESHOLD": {
+      "canonical_unit": "percent",
+      "metric_id": "extreme_yoy_review_threshold",
+      "metric_type": "yoy_growth_rate"
+    },
+    "V31-HEADLINE-2X2-BOTH": {
+      "canonical_unit": "count",
+      "metric_id": "headline_2x2_both",
+      "metric_type": "count"
+    },
+    "V31-HEADLINE-2X2-CONTINUING-ONLY": {
+      "canonical_unit": "count",
+      "metric_id": "headline_2x2_continuing_only",
+      "metric_type": "count"
+    },
+    "V31-HEADLINE-2X2-NEITHER": {
+      "canonical_unit": "count",
+      "metric_id": "headline_2x2_neither",
+      "metric_type": "count"
+    },
+    "V31-HEADLINE-2X2-REGULAR-ONLY": {
+      "canonical_unit": "count",
+      "metric_id": "headline_2x2_regular_only",
+      "metric_type": "count"
+    },
+    "V31-HEADLINE-CONTINUING-TOTAL": {
+      "canonical_unit": "count",
+      "metric_id": "continuing-total",
+      "metric_type": "count"
+    },
+    "V31-HEADLINE-REGULAR-TOTAL": {
+      "canonical_unit": "count",
+      "metric_id": "regular-total",
+      "metric_type": "count"
+    },
+    "V31-LARGE-DECISION-MARGIN-MEDIAN": {
+      "canonical_unit": "percentage_points",
+      "metric_id": "decision-margin-median",
+      "metric_type": "difference_between_growth_rates"
+    },
+    "V31-LARGE-SERIES-DIVERGENCE-MEDIAN": {
+      "canonical_unit": "percentage_points",
+      "metric_id": "series-divergence-median",
+      "metric_type": "difference_between_growth_rates"
+    },
+    "V31-MIDDLE-DECISION-MARGIN-MEDIAN": {
+      "canonical_unit": "percentage_points",
+      "metric_id": "decision-margin-median",
+      "metric_type": "difference_between_growth_rates"
+    },
+    "V31-MIDDLE-SERIES-DIVERGENCE-MEDIAN": {
+      "canonical_unit": "percentage_points",
+      "metric_id": "series-divergence-median",
+      "metric_type": "difference_between_growth_rates"
+    },
+    "V31-MISMATCH-LARGE-MARGIN-DIRECTION": {
+      "canonical_unit": "percent",
+      "metric_id": "relative_margin_direction_mismatch",
+      "metric_type": "direction_mismatch_rate"
+    },
+    "V31-MISMATCH-LARGE-OPERATING-PROFIT": {
+      "canonical_unit": "percent",
+      "metric_id": "operating_profit_mismatch",
+      "metric_type": "direction_mismatch_rate"
+    },
+    "V31-MISMATCH-LARGE-SALES": {
+      "canonical_unit": "percent",
+      "metric_id": "sales_mismatch",
+      "metric_type": "direction_mismatch_rate"
+    },
+    "V31-MISMATCH-MIDDLE-MARGIN-DIRECTION": {
+      "canonical_unit": "percent",
+      "metric_id": "relative_margin_direction_mismatch",
+      "metric_type": "direction_mismatch_rate"
+    },
+    "V31-MISMATCH-MIDDLE-OPERATING-PROFIT": {
+      "canonical_unit": "percent",
+      "metric_id": "operating_profit_mismatch",
+      "metric_type": "direction_mismatch_rate"
+    },
+    "V31-MISMATCH-MIDDLE-SALES": {
+      "canonical_unit": "percent",
+      "metric_id": "sales_mismatch",
+      "metric_type": "direction_mismatch_rate"
+    },
+    "V31-MISMATCH-SMALL-OPERATING-PROFIT": {
+      "canonical_unit": "percent",
+      "metric_id": "operating_profit_mismatch",
+      "metric_type": "direction_mismatch_rate"
+    },
+    "V31-MISMATCH-SMALL-SALES": {
+      "canonical_unit": "percent",
+      "metric_id": "sales_mismatch",
+      "metric_type": "direction_mismatch_rate"
+    },
+    "V31-ROUNDING-AMBIGUITY-THRESHOLD": {
+      "canonical_unit": "percentage_points",
+      "metric_id": "rounding_ambiguity_threshold",
+      "metric_type": "difference_between_growth_rates"
+    },
+    "V31-ROUNDING-AMBIGUOUS-COUNT": {
+      "canonical_unit": "count",
+      "metric_id": "rounding_ambiguous_count",
+      "metric_type": "count"
+    },
+    "V31-ROUNDING-HALF-WIDTH": {
+      "canonical_unit": "percentage_points",
+      "metric_id": "published_rounding_half_width",
+      "metric_type": "difference_between_growth_rates"
+    },
+    "V31-ROUNDING-MINIMUM-MARGIN": {
+      "canonical_unit": "percentage_points",
+      "metric_id": "minimum_rounding_decision_margin",
+      "metric_type": "difference_between_growth_rates"
+    },
+    "V31-SMALL-DECISION-MARGIN-MEDIAN": {
+      "canonical_unit": "percentage_points",
+      "metric_id": "decision-margin-median",
+      "metric_type": "difference_between_growth_rates"
+    },
+    "V31-SMALL-MARGIN-DIRECTION-MISMATCH": {
+      "canonical_unit": "percent",
+      "metric_id": "relative_margin_direction_mismatch",
+      "metric_type": "direction_mismatch_rate"
+    },
+    "V31-SMALL-SERIES-DIVERGENCE-MEDIAN": {
+      "canonical_unit": "percentage_points",
+      "metric_id": "series-divergence-median",
+      "metric_type": "difference_between_growth_rates"
+    },
+    "V32-2026Q1-SMALL-CONTINUING-OPERATING-PROFIT-YOY": {
+      "canonical_unit": "percent",
+      "metric_id": "operating_profit_yoy_growth_rate",
+      "metric_type": "yoy_growth_rate"
+    },
+    "V32-2026Q1-SMALL-CONTINUING-SALES-YOY": {
+      "canonical_unit": "percent",
+      "metric_id": "sales_yoy_growth_rate",
+      "metric_type": "yoy_growth_rate"
+    },
+    "V32-2026Q1-SMALL-OPERATING-PROFIT-CROSS-SERIES-GAP": {
+      "canonical_unit": "percentage_points",
+      "metric_id": "operating_profit_cross_series_growth_rate_gap",
+      "metric_type": "difference_between_growth_rates"
+    },
+    "V32-2026Q1-SMALL-REGULAR-OPERATING-PROFIT-YOY": {
+      "canonical_unit": "percent",
+      "metric_id": "operating_profit_yoy_growth_rate",
+      "metric_type": "yoy_growth_rate"
+    },
+    "V32-2026Q1-SMALL-REGULAR-SALES-YOY": {
+      "canonical_unit": "percent",
+      "metric_id": "sales_yoy_growth_rate",
+      "metric_type": "yoy_growth_rate"
+    },
+    "V32-2026Q1-SMALL-SALES-CROSS-SERIES-GAP": {
+      "canonical_unit": "percentage_points",
+      "metric_id": "sales_cross_series_growth_rate_gap",
+      "metric_type": "difference_between_growth_rates"
+    }
+  },
+  "legacy_notation_aliases": {
+    "%": "percent",
+    "pt": "percentage_points",
+    "quarters": "count"
+  },
+  "metric_id_registry": {
+    "composite_headline_support_mismatch": {
+      "canonical_unit": "percent",
+      "metric_type": "direction_mismatch_rate"
+    },
+    "continuing-total": {
+      "canonical_unit": "count",
+      "metric_type": "count"
+    },
+    "deadband_margin_direction_mismatch": {
+      "canonical_unit": "percent",
+      "metric_type": "direction_mismatch_rate"
+    },
+    "decision-margin-median": {
+      "canonical_unit": "percentage_points",
+      "metric_type": "difference_between_growth_rates"
+    },
+    "extreme_yoy_flagged_mismatch_count": {
+      "canonical_unit": "count",
+      "metric_type": "count"
+    },
+    "extreme_yoy_rate_gt_100_count": {
+      "canonical_unit": "count",
+      "metric_type": "count"
+    },
+    "extreme_yoy_review_threshold": {
+      "canonical_unit": "percent",
+      "metric_type": "yoy_growth_rate"
+    },
+    "headline_2x2_both": {
+      "canonical_unit": "count",
+      "metric_type": "count"
+    },
+    "headline_2x2_continuing_only": {
+      "canonical_unit": "count",
+      "metric_type": "count"
+    },
+    "headline_2x2_neither": {
+      "canonical_unit": "count",
+      "metric_type": "count"
+    },
+    "headline_2x2_regular_only": {
+      "canonical_unit": "count",
+      "metric_type": "count"
+    },
+    "minimum_rounding_decision_margin": {
+      "canonical_unit": "percentage_points",
+      "metric_type": "difference_between_growth_rates"
+    },
+    "operating_profit_cross_series_growth_rate_gap": {
+      "canonical_unit": "percentage_points",
+      "metric_type": "difference_between_growth_rates"
+    },
+    "operating_profit_mismatch": {
+      "canonical_unit": "percent",
+      "metric_type": "direction_mismatch_rate"
+    },
+    "operating_profit_yoy_growth_rate": {
+      "canonical_unit": "percent",
+      "metric_type": "yoy_growth_rate"
+    },
+    "published_rounding_half_width": {
+      "canonical_unit": "percentage_points",
+      "metric_type": "difference_between_growth_rates"
+    },
+    "regular-total": {
+      "canonical_unit": "count",
+      "metric_type": "count"
+    },
+    "regular_series_census_threshold": {
+      "canonical_unit": "yen",
+      "metric_type": "currency_threshold_yen"
+    },
+    "relative_margin_direction_mismatch": {
+      "canonical_unit": "percent",
+      "metric_type": "direction_mismatch_rate"
+    },
+    "rounding_ambiguity_threshold": {
+      "canonical_unit": "percentage_points",
+      "metric_type": "difference_between_growth_rates"
+    },
+    "rounding_ambiguous_count": {
+      "canonical_unit": "count",
+      "metric_type": "count"
+    },
+    "sales_cross_series_growth_rate_gap": {
+      "canonical_unit": "percentage_points",
+      "metric_type": "difference_between_growth_rates"
+    },
+    "sales_mismatch": {
+      "canonical_unit": "percent",
+      "metric_type": "direction_mismatch_rate"
+    },
+    "sales_yoy_growth_rate": {
+      "canonical_unit": "percent",
+      "metric_type": "yoy_growth_rate"
+    },
+    "series-divergence-median": {
+      "canonical_unit": "percentage_points",
+      "metric_type": "difference_between_growth_rates"
+    }
+  },
+  "release": "2026Q1_v3_2",
+  "schema_version": "1.0",
+  "unit_definitions": {
+    "count": "integer count",
+    "oku_yen": "currency amount in hundred-million yen",
+    "percent": "rate expressed in percent",
+    "percentage_points": "arithmetic difference between percentage rates",
+    "yen": "currency amount in yen"
+  },
+  "validation_rules": {
+    "claim_and_metric_registry_must_agree": true,
+    "difference_between_growth_rates_forbidden_units": [
+      "percent",
+      "%"
+    ]
+  }
+}

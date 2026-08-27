@@ -1,0 +1,1712 @@
+{
+  "query": {
+    "rows": [
+      {
+        "matterId": 4,
+        "tableName": "MH_BU7IIW_0001016984",
+        "dispTableName": "S7IIW_0003060191_BUN02",
+        "positionNum": "1",
+        "listData": [
+          {
+            "name": "全産業（除く金融保険業）",
+            "code": "104",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "製造業",
+            "code": "108",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "農林水産業(集約)",
+            "code": "105",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "鉱業、採石業、砂利採取業",
+            "code": "106",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "建設業",
+            "code": "107",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "電気業",
+            "code": "135",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "ガス・熱供給・水道業",
+            "code": "136",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "情報通信業",
+            "code": "142",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "運輸業、郵便業(集約)",
+            "code": "134",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "卸売業・小売業(集約)",
+            "code": "129",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "不動産業、物品賃貸業(集約)",
+            "code": "155",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "サービス業(集約)",
+            "code": "137",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "食料品製造業",
+            "code": "109",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "繊維工業",
+            "code": "110",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "木材・木製品製造業",
+            "code": "112",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "パルプ・紙・紙加工品製造業",
+            "code": "113",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "印刷・同関連業",
+            "code": "114",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "化学工業",
+            "code": "115",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "石油製品・石炭製品製造業",
+            "code": "116",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "窯業・土石製品製造業",
+            "code": "117",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "鉄鋼業",
+            "code": "118",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "非鉄金属製造業",
+            "code": "119",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "金属製品製造業",
+            "code": "120",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "はん用機械器具製造業",
+            "code": "154",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "生産用機械器具製造業",
+            "code": "121",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "業務用機械器具製造業",
+            "code": "124",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "電気機械器具製造業",
+            "code": "122",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "情報通信機械器具製造業",
+            "code": "145",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "自動車・同附属品製造業",
+            "code": "123",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "その他の輸送用機械器具製造業",
+            "code": "125",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "その他の製造業",
+            "code": "126",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "農業、林業",
+            "code": "101",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "漁業",
+            "code": "103",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "陸運業",
+            "code": "131",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "水運業",
+            "code": "132",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "その他の運輸業",
+            "code": "133",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "卸売業",
+            "code": "127",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "小売業",
+            "code": "128",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "不動産業",
+            "code": "130",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "リース業",
+            "code": "150",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "その他の物品賃貸業",
+            "code": "151",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "宿泊業",
+            "code": "139",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "飲食サービス業",
+            "code": "148",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "生活関連サービス業",
+            "code": "140",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "娯楽業",
+            "code": "141",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "広告業",
+            "code": "138",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "純粋持株会社",
+            "code": "158",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "その他の学術研究、専門・技術サービス業",
+            "code": "159",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "教育、学習支援業",
+            "code": "153",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "医療、福祉業",
+            "code": "152",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "職業紹介・労働者派遣業",
+            "code": "160",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "その他のサービス業",
+            "code": "143",
+            "unit": "",
+            "explanation": ""
+          }
+        ],
+        "allSelected": 0
+      },
+      {
+        "matterId": 5,
+        "tableName": "MH_BU7IIW_0001016985",
+        "dispTableName": "S7IIW_0003060191_BUN03",
+        "positionNum": "2",
+        "listData": [
+          {
+            "name": "全規模",
+            "code": "26",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1千万円以上 - 1億円未満",
+            "code": "19",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1億円以上 - 10億円未満",
+            "code": "24",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "10億円以上",
+            "code": "25",
+            "unit": "",
+            "explanation": ""
+          }
+        ],
+        "allSelected": 0
+      },
+      {
+        "matterId": 2,
+        "tableName": "MH_TMY7IIW_0001002584",
+        "dispTableName": "S7IIW_0003060191_TIME",
+        "positionNum": "3",
+        "listData": [
+          {
+            "name": "2013年4 - 6 月",
+            "code": "20132",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2013年7 - 9 月",
+            "code": "20133",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2013年10-12月",
+            "code": "20134",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2014年1 - 3 月",
+            "code": "20141",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2014年4 - 6 月",
+            "code": "20142",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2014年7 - 9 月",
+            "code": "20143",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2014年10-12月",
+            "code": "20144",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2015年1 - 3 月",
+            "code": "20151",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2015年4 - 6 月",
+            "code": "20152",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2015年7 - 9 月",
+            "code": "20153",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2015年10-12月",
+            "code": "20154",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2016年1 - 3 月",
+            "code": "20161",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2016年4 - 6 月",
+            "code": "20162",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2016年7 - 9 月",
+            "code": "20163",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2016年10-12月",
+            "code": "20164",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2017年1 - 3 月",
+            "code": "20171",
+            "unit": "",
+            "explanation": ""
+          }
+        ],
+        "allSelected": 0
+      }
+    ],
+    "cols": [
+      {
+        "matterId": 3,
+        "tableName": "MH_BU7IIW_0001016986",
+        "dispTableName": "S7IIW_0003060191_BUN01",
+        "positionNum": "1",
+        "listData": [
+          {
+            "name": "営業利益(当期末)",
+            "code": "081",
+            "unit": "百万円",
+            "explanation": ""
+          },
+          {
+            "name": "受取利息等(当期末)",
+            "code": "082",
+            "unit": "百万円",
+            "explanation": ""
+          },
+          {
+            "name": "その他の営業外収益(当期末)",
+            "code": "083",
+            "unit": "百万円",
+            "explanation": ""
+          },
+          {
+            "name": "支払利息等(当期末)",
+            "code": "084",
+            "unit": "百万円",
+            "explanation": ""
+          },
+          {
+            "name": "その他の営業外費用(当期末)",
+            "code": "085",
+            "unit": "百万円",
+            "explanation": ""
+          },
+          {
+            "name": "経常利益(当期末)",
+            "code": "086",
+            "unit": "百万円",
+            "explanation": ""
+          }
+        ],
+        "allSelected": 0
+      }
+    ],
+    "tops": [],
+    "apiTops": [],
+    "annotationFlg": 1,
+    "rowNoDataDispFlg": 0,
+    "colNoDataDispFlg": 0,
+    "commaType": 0,
+    "replaceSpChars": 0,
+    "graphAxis": "horizontal",
+    "graphBasis": "head",
+    "graphSort": "asc",
+    "graphTitle": "",
+    "graphType": "barChart",
+    "inputNumberOfCols": 100,
+    "inputNumberOfRows": 100000,
+    "movementId": 0,
+    "leftMoveFlg": 0,
+    "rightMoveFlg": 0,
+    "underMoveFlg": 0,
+    "upMoveFlg": 0,
+    "currentCols": null,
+    "currentRows": null,
+    "mode": "table"
+  },
+  "dimension_keys": {
+    "metric": "matter3",
+    "industry": "matter4",
+    "capital": "matter5",
+    "time": "matter2"
+  },
+  "dimension_spec": {
+    "metric": [
+      {
+        "code": "081",
+        "name": "営業利益(当期末)",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 86,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "百万円",
+        "unitExplanation": null,
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "082",
+        "name": "受取利息等(当期末)",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 87,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "百万円",
+        "unitExplanation": null,
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "083",
+        "name": "その他の営業外収益(当期末)",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 88,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "百万円",
+        "unitExplanation": null,
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "084",
+        "name": "支払利息等(当期末)",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 89,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "百万円",
+        "unitExplanation": null,
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "085",
+        "name": "その他の営業外費用(当期末)",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 90,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "百万円",
+        "unitExplanation": null,
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "086",
+        "name": "経常利益(当期末)",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 91,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "百万円",
+        "unitExplanation": null,
+        "selected": true,
+        "picked": false
+      }
+    ],
+    "industry": [
+      {
+        "code": "104",
+        "name": "全産業（除く金融保険業）",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 1,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "108",
+        "name": "製造業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 2,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "105",
+        "name": "農林水産業(集約)",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 26,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "106",
+        "name": "鉱業、採石業、砂利採取業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 31,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "107",
+        "name": "建設業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 32,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "135",
+        "name": "電気業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 33,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "136",
+        "name": "ガス・熱供給・水道業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 34,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "142",
+        "name": "情報通信業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 35,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "134",
+        "name": "運輸業、郵便業(集約)",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 36,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "129",
+        "name": "卸売業・小売業(集約)",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 40,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "155",
+        "name": "不動産業、物品賃貸業(集約)",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 43,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "137",
+        "name": "サービス業(集約)",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 48,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "109",
+        "name": "食料品製造業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 3,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "110",
+        "name": "繊維工業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 4,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "112",
+        "name": "木材・木製品製造業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 7,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "113",
+        "name": "パルプ・紙・紙加工品製造業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 8,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "114",
+        "name": "印刷・同関連業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 9,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "115",
+        "name": "化学工業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 10,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "116",
+        "name": "石油製品・石炭製品製造業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 11,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "117",
+        "name": "窯業・土石製品製造業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 12,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "118",
+        "name": "鉄鋼業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 13,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "119",
+        "name": "非鉄金属製造業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 14,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "120",
+        "name": "金属製品製造業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 15,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "154",
+        "name": "はん用機械器具製造業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 16,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "121",
+        "name": "生産用機械器具製造業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 17,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "124",
+        "name": "業務用機械器具製造業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 18,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "122",
+        "name": "電気機械器具製造業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 19,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "145",
+        "name": "情報通信機械器具製造業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 20,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "123",
+        "name": "自動車・同附属品製造業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 22,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "125",
+        "name": "その他の輸送用機械器具製造業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 23,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "126",
+        "name": "その他の製造業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 24,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "101",
+        "name": "農業、林業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 27,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "103",
+        "name": "漁業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 30,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "131",
+        "name": "陸運業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 37,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "132",
+        "name": "水運業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 38,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "133",
+        "name": "その他の運輸業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 39,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "127",
+        "name": "卸売業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 41,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "128",
+        "name": "小売業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 42,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "130",
+        "name": "不動産業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 44,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "150",
+        "name": "リース業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 46,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "151",
+        "name": "その他の物品賃貸業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 47,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "139",
+        "name": "宿泊業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 50,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "148",
+        "name": "飲食サービス業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 51,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "140",
+        "name": "生活関連サービス業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 53,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "141",
+        "name": "娯楽業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 54,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "138",
+        "name": "広告業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 56,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "158",
+        "name": "純粋持株会社",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 57,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "159",
+        "name": "その他の学術研究、専門・技術サービス業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 58,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "153",
+        "name": "教育、学習支援業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 59,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "152",
+        "name": "医療、福祉業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 60,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "160",
+        "name": "職業紹介・労働者派遣業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 61,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "143",
+        "name": "その他のサービス業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 62,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      }
+    ],
+    "capital": [
+      {
+        "code": "26",
+        "name": "全規模",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 1,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19",
+        "name": "1千万円以上 - 1億円未満",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 4,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "24",
+        "name": "1億円以上 - 10億円未満",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 3,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "25",
+        "name": "10億円以上",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 2,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      }
+    ],
+    "time": [
+      {
+        "code": "20132",
+        "name": "2013年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2370,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20133",
+        "name": "2013年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2380,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20134",
+        "name": "2013年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2390,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20141",
+        "name": "2014年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2400,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20142",
+        "name": "2014年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2410,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20143",
+        "name": "2014年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2420,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20144",
+        "name": "2014年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2430,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20151",
+        "name": "2015年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2440,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20152",
+        "name": "2015年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2450,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20153",
+        "name": "2015年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2460,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20154",
+        "name": "2015年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2470,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20161",
+        "name": "2016年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2480,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20162",
+        "name": "2016年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2490,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20163",
+        "name": "2016年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2500,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20164",
+        "name": "2016年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2510,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20171",
+        "name": "2017年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2520,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      }
+    ]
+  },
+  "metric_map": {
+    "081": {
+      "metric_id": "operating_profit",
+      "metric_label_ja": "営業利益",
+      "source_name": "営業利益(当期末)",
+      "source_unit": "百万円",
+      "gap_sign": null
+    },
+    "082": {
+      "metric_id": "interest_and_dividend_income",
+      "metric_label_ja": "受取利息等",
+      "source_name": "受取利息等(当期末)",
+      "source_unit": "百万円",
+      "gap_sign": 1
+    },
+    "083": {
+      "metric_id": "other_non_operating_income",
+      "metric_label_ja": "その他の営業外収益",
+      "source_name": "その他の営業外収益(当期末)",
+      "source_unit": "百万円",
+      "gap_sign": 1
+    },
+    "084": {
+      "metric_id": "interest_expense",
+      "metric_label_ja": "支払利息等",
+      "source_name": "支払利息等(当期末)",
+      "source_unit": "百万円",
+      "gap_sign": -1
+    },
+    "085": {
+      "metric_id": "other_non_operating_expense",
+      "metric_label_ja": "その他の営業外費用",
+      "source_name": "その他の営業外費用(当期末)",
+      "source_unit": "百万円",
+      "gap_sign": -1
+    },
+    "086": {
+      "metric_id": "ordinary_profit",
+      "metric_label_ja": "経常利益",
+      "source_name": "経常利益(当期末)",
+      "source_unit": "百万円",
+      "gap_sign": null
+    }
+  },
+  "coverage_scope": "EXCL_FINANCE_INSURANCE",
+  "seasonal_adjustment": "RAW",
+  "table_number": "1",
+  "estat_sid": "0003060191",
+  "period_codes": [
+    "20132",
+    "20133",
+    "20134",
+    "20141",
+    "20142",
+    "20143",
+    "20144",
+    "20151",
+    "20152",
+    "20153",
+    "20154",
+    "20161",
+    "20162",
+    "20163",
+    "20164",
+    "20171"
+  ],
+  "classification_policy": {
+    "major_and_leaf_are_separate_taxonomies": true,
+    "overlapping_or_h20_legacy_rows_excluded": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "manifest_version": 2,
+  "dataset": "corporate_quarterly_stage2",
+  "release_id": "2026Q1",
+  "output_id": "2026Q1_v2",
+  "generated_at": "2026-08-25T14:19:14.104817+00:00",
+  "canonical_configuration": {
+    "path": "config/release_2026Q1.json",
+    "CONFIG_KIND": "EXECUTABLE_RELEASE_CONFIGURATION",
+    "sha256": "46a231b9b7671c29b01c48f6e5f1f8eeaf4a1709b94e35fd87b80d75419a563e",
+    "stage2_path": "config/stage2_2026Q1.json",
+    "stage2_CONFIG_KIND": "EXECUTABLE_STAGE2_CONFIGURATION",
+    "stage2_sha256": "4a78de75c69fa0d510c320eb8d234e3ed12824e43ef391698346a4d2b355a16f",
+    "input_stub": "../corporate_quarterly/config/release_input_minimal.json"
+  },
+  "vintage_policy": {
+    "historical": "CURRENT_VINTAGE_HISTORICAL_SERIES",
+    "prior_publication_vintages": "NOT_AVAILABLE_NOT_TESTED",
+    "raw_mutation": "FORBIDDEN"
+  },
+  "historical_manifest": {
+    "path": "data/raw/historical_2026Q1/data_manifest.json",
+    "sha256": "ff2885bc6de5e3b2b2bdc562cbcdc79fd1b2187865b35abdb779f3647d1a0aad",
+    "source_count": 3,
+    "model_period_count": 288,
+    "software_comparable_start_period_code": "20013"
+  },
+  "external_manifest": {
+    "activation": "PERSISTENT_PATTERN_ONLY",
+    "status": "NOT_ACTIVATED_NO_PERSISTENT_PATTERN",
+    "path": null,
+    "sha256": null,
+    "source_count": 0
+  },
+  "pattern_decisions": [
+    {
+      "candidate_id": "A",
+      "pattern_decision": "UNSTABLE_OR_NO_PATTERN"
+    },
+    {
+      "candidate_id": "B",
+      "pattern_decision": "RECENT_BUT_NOT_ESTABLISHED"
+    },
+    {
+      "candidate_id": "C",
+      "pattern_decision": "ONE_QUARTER_OUTLIER"
+    },
+    {
+      "candidate_id": "D",
+      "pattern_decision": "RECENT_BUT_NOT_ESTABLISHED"
+    },
+    {
+      "candidate_id": "E",
+      "pattern_decision": "UNSTABLE_OR_NO_PATTERN"
+    }
+  ]
+}

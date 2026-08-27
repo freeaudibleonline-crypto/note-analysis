@@ -1,0 +1,364 @@
+{
+  "query": {
+    "rows": [
+      {
+        "matterId": 4,
+        "tableName": "MH_BU7IIW_0001016981",
+        "dispTableName": "S7IIW_0003066618_BUN02",
+        "positionNum": "1",
+        "listData": [
+          {
+            "name": "全産業",
+            "code": "104",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "製造業",
+            "code": "108",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "非製造業",
+            "code": "144",
+            "unit": "",
+            "explanation": ""
+          }
+        ],
+        "allSelected": 1
+      },
+      {
+        "matterId": 5,
+        "tableName": "MH_BU7IIW_0001016983",
+        "dispTableName": "S7IIW_0003066618_BUN03",
+        "positionNum": "2",
+        "listData": [
+          {
+            "name": "全規模",
+            "code": "26",
+            "unit": "",
+            "explanation": ""
+          }
+        ],
+        "allSelected": 1
+      },
+      {
+        "matterId": 2,
+        "tableName": "MH_TMY7IIW_0001002584",
+        "dispTableName": "S7IIW_0003066618_TIME",
+        "positionNum": "3",
+        "listData": [
+          {
+            "name": "2025年1 - 3 月",
+            "code": "20251",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2025年10 - 12 月",
+            "code": "20254",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2026年1 - 3 月",
+            "code": "20261",
+            "unit": "",
+            "explanation": ""
+          }
+        ],
+        "allSelected": 0
+      }
+    ],
+    "cols": [
+      {
+        "matterId": 3,
+        "tableName": "MH_BU7IIW_0001016982",
+        "dispTableName": "S7IIW_0003066618_BUN01",
+        "positionNum": "1",
+        "listData": [
+          {
+            "name": "ソフトウェアを含む設備投資(当期末)",
+            "code": "005",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "ソフトウェアを除く設備投資(当期末)",
+            "code": "003",
+            "unit": "百万円",
+            "explanation": ""
+          },
+          {
+            "name": "売上高(当期末)",
+            "code": "001",
+            "unit": "百万円",
+            "explanation": ""
+          },
+          {
+            "name": "営業利益(当期末)",
+            "code": "004",
+            "unit": "百万円",
+            "explanation": ""
+          },
+          {
+            "name": "経常利益(当期末)",
+            "code": "002",
+            "unit": "百万円",
+            "explanation": ""
+          }
+        ],
+        "allSelected": 1
+      }
+    ],
+    "tops": [],
+    "apiTops": [],
+    "annotationFlg": 1,
+    "rowNoDataDispFlg": 0,
+    "colNoDataDispFlg": 0,
+    "commaType": 0,
+    "replaceSpChars": 0,
+    "graphAxis": "horizontal",
+    "graphBasis": "head",
+    "graphSort": "asc",
+    "graphTitle": "",
+    "graphType": "barChart",
+    "inputNumberOfCols": 100,
+    "inputNumberOfRows": 100000,
+    "movementId": 0,
+    "leftMoveFlg": 0,
+    "rightMoveFlg": 0,
+    "underMoveFlg": 0,
+    "upMoveFlg": 0,
+    "currentCols": null,
+    "currentRows": null,
+    "mode": "table"
+  },
+  "dimension_spec": {
+    "dimension_keys": {
+      "metric": "matter3",
+      "industry": "matter4",
+      "capital": "matter5",
+      "time": "matter2"
+    },
+    "metrics": {
+      "capex_including_software": {
+        "code": "005",
+        "name": "ソフトウェアを含む設備投資(当期末)",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 5,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": null,
+        "selected": true,
+        "picked": false,
+        "metric_id": "capex_including_software",
+        "metric_label_ja": "設備投資（ソフトウェア込み）"
+      },
+      "capex_excluding_software": {
+        "code": "003",
+        "name": "ソフトウェアを除く設備投資(当期末)",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 4,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "百万円",
+        "unitExplanation": null,
+        "selected": true,
+        "picked": false,
+        "metric_id": "capex_excluding_software",
+        "metric_label_ja": "設備投資（ソフトウェア除く）"
+      },
+      "sales": {
+        "code": "001",
+        "name": "売上高(当期末)",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 1,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "百万円",
+        "unitExplanation": null,
+        "selected": true,
+        "picked": false,
+        "metric_id": "sales",
+        "metric_label_ja": "売上高"
+      },
+      "operating_profit": {
+        "code": "004",
+        "name": "営業利益(当期末)",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 2,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "百万円",
+        "unitExplanation": null,
+        "selected": true,
+        "picked": false,
+        "metric_id": "operating_profit",
+        "metric_label_ja": "営業利益"
+      },
+      "ordinary_profit": {
+        "code": "002",
+        "name": "経常利益(当期末)",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 3,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "百万円",
+        "unitExplanation": null,
+        "selected": true,
+        "picked": false,
+        "metric_id": "ordinary_profit",
+        "metric_label_ja": "経常利益"
+      }
+    },
+    "industry": [
+      {
+        "code": "104",
+        "name": "全産業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 1,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "108",
+        "name": "製造業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 2,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "144",
+        "name": "非製造業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 3,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      }
+    ],
+    "capital": [
+      {
+        "code": "26",
+        "name": "全規模",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 1,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      }
+    ],
+    "time": [
+      {
+        "code": "20251",
+        "name": "2025年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2850,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20254",
+        "name": "2025年10 - 12 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2880,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20261",
+        "name": "2026年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2890,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      }
+    ]
+  },
+  "canonical_metric_map": {
+    "capex_including_software": {
+      "code": "005",
+      "source_name": "ソフトウェアを含む設備投資(当期末)",
+      "metric_label_ja": "設備投資（ソフトウェア込み）",
+      "source_unit": ""
+    },
+    "capex_excluding_software": {
+      "code": "003",
+      "source_name": "ソフトウェアを除く設備投資(当期末)",
+      "metric_label_ja": "設備投資（ソフトウェア除く）",
+      "source_unit": "百万円"
+    },
+    "sales": {
+      "code": "001",
+      "source_name": "売上高(当期末)",
+      "metric_label_ja": "売上高",
+      "source_unit": "百万円"
+    },
+    "operating_profit": {
+      "code": "004",
+      "source_name": "営業利益(当期末)",
+      "metric_label_ja": "営業利益",
+      "source_unit": "百万円"
+    },
+    "ordinary_profit": {
+      "code": "002",
+      "source_name": "経常利益(当期末)",
+      "metric_label_ja": "経常利益",
+      "source_unit": "百万円"
+    }
+  }
+}

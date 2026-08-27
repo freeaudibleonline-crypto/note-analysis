@@ -1,0 +1,35 @@
+{
+  "CONFIG_KIND": "EXECUTABLE_STAGE5_FINAL_RELEASE_CONFIGURATION",
+  "release": "2026Q1",
+  "output_id": "2026Q1_v3_2",
+  "canonical_comparison_csv": "outputs/2026Q1_v3/main_vs_continuing_sample.csv",
+  "base_claims_csv": "outputs/2026Q1_v3_1/claims_v3_1.csv",
+  "protected_output_directories": [
+    "outputs/2026Q1",
+    "outputs/2026Q1_v2",
+    "outputs/2026Q1_v3",
+    "outputs/2026Q1_v3_1"
+  ],
+  "immutability_manifest_scope": "outputs/2026Q1_v3_1",
+  "article": {
+    "title": "利益率方向の食い違いは小規模資本金層に集中していた――法人企業統計、二つの推計を41四半期比べる",
+    "formal_small_capital_name": "資本金1,000万円以上1億円未満層",
+    "minimum_visible_characters": 2900,
+    "maximum_visible_characters": 3300,
+    "figure_count": 3,
+    "current_example_section_minimum_characters": 180,
+    "current_example_section_maximum_characters": 250
+  },
+  "chart_titles": {
+    "mismatch_heatmap": "通常系列と継続標本系列の方向不一致率\n（2016Q1～2026Q1）"
+  },
+  "package_filename": "corporate_quarterly_2026Q1_v3_2_clean.zip",
+  "minimum_existing_test_count": 213,
+  "offline_only": true,
+  "excluded_topics": [
+    "外形標準課税",
+    "税制上の減資インセンティブ",
+    "自己申告区分",
+    "営業外損益"
+  ]
+}

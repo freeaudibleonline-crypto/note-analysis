@@ -1,0 +1,1238 @@
+{
+  "query_schema_version": 1,
+  "continuing_vintage_id": "continuing_sample_2026Q1",
+  "created_at": "2026-08-25T20:26:30.585819+00:00",
+  "request": {
+    "http_method": "POST",
+    "url": "https://www.e-stat.go.jp/dbview/api_get_result?sid=0003060191",
+    "form_payload": {
+      "rows": "H4sIAAAAAAAC/6XX30sUURTA8X9luc8r3HPu3fmxj2HQPuy+uBEhIpM7DwOzP2hHCCQwMrVAJOhFUCnUkKC3HsyK/ph2p52n/oXuZLYTc27OoTcd7/2u5zMIx+UN0Q+SJHzY6ommroskeBCHnaAfiqZo31m9dddtte6tSilBguN7WtRFLxqPuoVjS9dHlHQk+GAudSSag6PhOEqi4aCz3jfHwDyJo3GyGCSBaC5viMHV9emz8++vTtKz9z8+72YHp9+e7Gc7L2fHe5OvR9nB5a/nz83VtWEvPw0y/xXWB1FivjFfhY9GcTAI8o/JHzyu/+nOTr5km6/N/eJlr+Ll7OiYuq///eErdRHE8VIYh2tJaDxlXpzzNm7kbVTlVSVetPPO3u6n52/mY6BTUQHkdGtrur09+XQ2uXhRCDSqBor3awu162B6+C693CwEdeXg3tPJxc5fTToJ/v+8Kiy9qm77/vxdSWxU+1Pottq3S69KWV4VSmhMP34AM5SqpYe7BR/zE6hI9LuiTcUpV5BXcU3FL1cUrwJyAbAU0dUjjpXFAV6FZnGQV6FZHMWciGJxGCyulcUFXoVmcZFXoVlcxZyIYnEZLJ6VxQNehWbxkFehWTzFnIhi8RgsvpXFB16FZvGRV6FZfMWciGLxq7OgtLGYDq9CsqBEXoVkQamYExEsKBksYGUB4FVoFkBehWYBxZxI5hsDljsMGbTKIPAqtAwir0LLoGJOZJFBhoyyyijgVWgZhbwKLaMUcyKLjGLIaKuMBl6FltHIq9AyWjEnsshohox140XGxovWjRcZGy9aN15kbLxXE1lkGEsvWpdevGHpLf9vs/IT2PNdQecPAAA=",
+      "cols": "H4sIAAAAAAAC/4uuVspNLClJLfJMUbIy1lEqSUzKSfVLzE1VslLy9Yh3CjX39AyPNzAwMDQwNLO0MFPSUUrJLC4IQVIWDFNibGBmYGhpCNTkZ2AIVFiQX5xZkpmf51eaC1QGEsnJLC5xSSxJVLKKrlbKg2h/unjTkx1dL1fP0Hi6d/KzOfOfzVmtCVSanJ8CkjUwtwBySvMyS4Cc5zP3PdnR/rStDSiUWlGQk5iXCDIfKKNUq4MwcNq2Z0vXPu1Y+Xx2F3YzLQxJNfP51p6nO3bgNdOMVDNfrFj7tGnms66pLza3I8x8Nm0DSGL2rqfrZgElnk9Z/HRCx4sVHch2mRgQZ1esjlJiTk5wak5qckkqMH4NamMBDUNrUPABAAA=",
+      "tops": "H4sIAAAAAAAC/4uOBQApu0wNAgAAAA==",
+      "apiTops": "H4sIAAAAAAAC/4uOBQApu0wNAgAAAA==",
+      "annotationFlg": 1,
+      "rowNoDataDispFlg": 0,
+      "colNoDataDispFlg": 0,
+      "commaType": 0,
+      "replaceSpChars": 0,
+      "graphAxis": "horizontal",
+      "graphBasis": "head",
+      "graphSort": "asc",
+      "graphTitle": "",
+      "graphType": "barChart",
+      "inputNumberOfCols": 100,
+      "inputNumberOfRows": 100000,
+      "movementId": 0,
+      "leftMoveFlg": 0,
+      "rightMoveFlg": 0,
+      "underMoveFlg": 0,
+      "upMoveFlg": 0,
+      "currentCols": null,
+      "currentRows": null,
+      "mode": "table"
+    }
+  },
+  "query": {
+    "rows": [
+      {
+        "matterId": 4,
+        "tableName": "MH_BU7IIW_0001016984",
+        "dispTableName": "S7IIW_0003060191_BUN02",
+        "positionNum": "1",
+        "listData": [
+          {
+            "name": "全産業（除く金融保険業）",
+            "code": "104",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "製造業",
+            "code": "108",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "非製造業",
+            "code": "144",
+            "unit": "",
+            "explanation": ""
+          }
+        ],
+        "allSelected": 0
+      },
+      {
+        "matterId": 5,
+        "tableName": "MH_BU7IIW_0001016985",
+        "dispTableName": "S7IIW_0003060191_BUN03",
+        "positionNum": "2",
+        "listData": [
+          {
+            "name": "全規模",
+            "code": "26",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "10億円以上",
+            "code": "25",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1億円以上 - 10億円未満",
+            "code": "24",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1千万円以上 - 1億円未満",
+            "code": "19",
+            "unit": "",
+            "explanation": ""
+          }
+        ],
+        "allSelected": 0
+      },
+      {
+        "matterId": 2,
+        "tableName": "MH_TMY7IIW_0001002584",
+        "dispTableName": "S7IIW_0003060191_TIME",
+        "positionNum": "3",
+        "listData": [
+          {
+            "name": "2015年1 - 3 月",
+            "code": "20151",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2015年4 - 6 月",
+            "code": "20152",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2015年7 - 9 月",
+            "code": "20153",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2015年10-12月",
+            "code": "20154",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2016年1 - 3 月",
+            "code": "20161",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2016年4 - 6 月",
+            "code": "20162",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2016年7 - 9 月",
+            "code": "20163",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2016年10-12月",
+            "code": "20164",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2017年1 - 3 月",
+            "code": "20171",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2017年4 - 6 月",
+            "code": "20172",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2017年7 - 9 月",
+            "code": "20173",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2017年10-12月",
+            "code": "20174",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2018年1 - 3 月",
+            "code": "20181",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2018年4 - 6 月",
+            "code": "20182",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2018年7 - 9 月",
+            "code": "20183",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2018年10-12月",
+            "code": "20184",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2019年1 - 3 月",
+            "code": "20191",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2019年4 - 6 月",
+            "code": "20192",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2019年7 - 9 月",
+            "code": "20193",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2019年10-12月",
+            "code": "20194",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2020年1 - 3 月",
+            "code": "20201",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2020年4 - 6 月",
+            "code": "20202",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2020年7 - 9 月",
+            "code": "20203",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2020年10-12月",
+            "code": "20204",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2021年1 - 3 月",
+            "code": "20211",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2021年4 - 6 月",
+            "code": "20212",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2021年7 - 9 月",
+            "code": "20213",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2021年10 - 12 月",
+            "code": "20214",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2022年1 - 3 月",
+            "code": "20221",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2022年4 - 6 月",
+            "code": "20222",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2022年7 - 9 月",
+            "code": "20223",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2022年10 - 12 月",
+            "code": "20224",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2023年1 - 3 月",
+            "code": "20231",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2023年4 - 6 月",
+            "code": "20232",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2023年7 - 9 月",
+            "code": "20233",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2023年10 - 12 月",
+            "code": "20234",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2024年1 - 3 月",
+            "code": "20241",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2024年4 - 6 月",
+            "code": "20242",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2024年7 - 9 月",
+            "code": "20243",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2024年10 - 12 月",
+            "code": "20244",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2025年1 - 3 月",
+            "code": "20251",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2025年4 - 6 月",
+            "code": "20252",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2025年7 - 9 月",
+            "code": "20253",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2025年10 - 12 月",
+            "code": "20254",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2026年1 - 3 月",
+            "code": "20261",
+            "unit": "",
+            "explanation": ""
+          }
+        ],
+        "allSelected": 0
+      }
+    ],
+    "cols": [
+      {
+        "matterId": 3,
+        "tableName": "MH_BU7IIW_0001016986",
+        "dispTableName": "S7IIW_0003060191_BUN01",
+        "positionNum": "1",
+        "listData": [
+          {
+            "name": "売上高(当期末)",
+            "code": "078",
+            "unit": "百万円",
+            "explanation": ""
+          },
+          {
+            "name": "営業利益(当期末)",
+            "code": "081",
+            "unit": "百万円",
+            "explanation": ""
+          },
+          {
+            "name": "経常利益(当期末)",
+            "code": "086",
+            "unit": "百万円",
+            "explanation": ""
+          },
+          {
+            "name": "設備投資(当期末新設固定資産合計)",
+            "code": "040",
+            "unit": "百万円",
+            "explanation": ""
+          }
+        ],
+        "allSelected": 0
+      }
+    ],
+    "tops": [],
+    "apiTops": [],
+    "annotationFlg": 1,
+    "rowNoDataDispFlg": 0,
+    "colNoDataDispFlg": 0,
+    "commaType": 0,
+    "replaceSpChars": 0,
+    "graphAxis": "horizontal",
+    "graphBasis": "head",
+    "graphSort": "asc",
+    "graphTitle": "",
+    "graphType": "barChart",
+    "inputNumberOfCols": 100,
+    "inputNumberOfRows": 100000,
+    "movementId": 0,
+    "leftMoveFlg": 0,
+    "rightMoveFlg": 0,
+    "underMoveFlg": 0,
+    "upMoveFlg": 0,
+    "currentCols": null,
+    "currentRows": null,
+    "mode": "table"
+  },
+  "dimension_keys": {
+    "metric": "matter3",
+    "industry": "matter4",
+    "capital": "matter5",
+    "time": "matter2"
+  },
+  "dimension_spec": {
+    "industry": [
+      {
+        "code": "104",
+        "name": "全産業（除く金融保険業）",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 1,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "108",
+        "name": "製造業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 2,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "144",
+        "name": "非製造業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 25,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      }
+    ],
+    "capital": [
+      {
+        "code": "26",
+        "name": "全規模",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 1,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "25",
+        "name": "10億円以上",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 2,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "24",
+        "name": "1億円以上 - 10億円未満",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 3,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19",
+        "name": "1千万円以上 - 1億円未満",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 4,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      }
+    ],
+    "time": [
+      {
+        "code": "20151",
+        "name": "2015年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2440,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20152",
+        "name": "2015年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2450,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20153",
+        "name": "2015年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2460,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20154",
+        "name": "2015年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2470,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20161",
+        "name": "2016年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2480,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20162",
+        "name": "2016年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2490,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20163",
+        "name": "2016年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2500,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20164",
+        "name": "2016年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2510,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20171",
+        "name": "2017年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2520,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20172",
+        "name": "2017年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2530,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20173",
+        "name": "2017年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2540,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20174",
+        "name": "2017年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2550,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20181",
+        "name": "2018年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2560,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20182",
+        "name": "2018年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2570,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20183",
+        "name": "2018年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2580,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20184",
+        "name": "2018年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2590,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20191",
+        "name": "2019年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2600,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20192",
+        "name": "2019年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2610,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20193",
+        "name": "2019年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2620,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20194",
+        "name": "2019年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2630,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20201",
+        "name": "2020年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2640,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20202",
+        "name": "2020年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2650,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20203",
+        "name": "2020年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2660,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20204",
+        "name": "2020年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2680,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20211",
+        "name": "2021年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2690,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20212",
+        "name": "2021年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2700,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20213",
+        "name": "2021年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2710,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20214",
+        "name": "2021年10 - 12 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2720,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20221",
+        "name": "2022年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2730,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20222",
+        "name": "2022年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2740,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20223",
+        "name": "2022年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2750,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20224",
+        "name": "2022年10 - 12 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2760,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20231",
+        "name": "2023年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2770,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20232",
+        "name": "2023年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2780,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20233",
+        "name": "2023年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2790,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20234",
+        "name": "2023年10 - 12 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2800,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20241",
+        "name": "2024年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2810,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20242",
+        "name": "2024年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2820,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20243",
+        "name": "2024年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2830,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20244",
+        "name": "2024年10 - 12 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2840,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20251",
+        "name": "2025年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2850,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20252",
+        "name": "2025年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2860,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20253",
+        "name": "2025年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2870,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20254",
+        "name": "2025年10 - 12 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2880,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20261",
+        "name": "2026年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2890,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      }
+    ]
+  },
+  "canonical_metric_map": {
+    "sales": {
+      "code": "078",
+      "source_name": "売上高(当期末)",
+      "metric_label_ja": "売上高",
+      "source_unit": "百万円"
+    },
+    "operating_profit": {
+      "code": "081",
+      "source_name": "営業利益(当期末)",
+      "metric_label_ja": "営業利益",
+      "source_unit": "百万円"
+    },
+    "ordinary_profit": {
+      "code": "086",
+      "source_name": "経常利益(当期末)",
+      "metric_label_ja": "経常利益",
+      "source_unit": "百万円"
+    },
+    "capex_including_software": {
+      "code": "040",
+      "source_name": "設備投資(当期末新設固定資産合計)",
+      "metric_label_ja": "設備投資（ソフトウェア込み）",
+      "source_unit": "百万円"
+    }
+  },
+  "analysis_mapping": {
+    "industry": {
+      "capital_code": "26",
+      "industry_codes": [
+        "104",
+        "108",
+        "144"
+      ]
+    },
+    "capital_size": {
+      "industry_code": "104",
+      "capital_codes": [
+        "25",
+        "24",
+        "19"
+      ],
+      "pdf_to_estat": {
+        "大企業": {
+          "estat_capital_code": "25",
+          "estat_capital_name": "10億円以上"
+        },
+        "中堅企業": {
+          "estat_capital_code": "24",
+          "estat_capital_name": "1億円以上 - 10億円未満"
+        },
+        "中小企業": {
+          "estat_capital_code": "19",
+          "estat_capital_name": "1千万円以上 - 1億円未満"
+        }
+      }
+    },
+    "capex_definition": "software_including metric code 040"
+  },
+  "vintage_status": "CURRENT_VINTAGE_HISTORICAL_SERIES",
+  "revision_robustness_status": "NOT_TESTED_NO_PRIOR_PUBLICATION_VINTAGES"
+}

@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "corporate-quarterly"
+version = "0.1.0"
+description = "Reproducible analysis pipeline for Japan's Quarterly Financial Statements Statistics of Corporations"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=2.0",
+  "pandas>=2.2",
+  "pyarrow>=14",
+  "requests>=2.31",
+  "matplotlib>=3.8",
+  "openpyxl>=3.1",
+  "beautifulsoup4>=4.12",
+  "lxml>=5.0",
+  "pypdf>=6.16",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=9.0"]
+
+[project.scripts]
+corporate-quarterly = "corporate_quarterly.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

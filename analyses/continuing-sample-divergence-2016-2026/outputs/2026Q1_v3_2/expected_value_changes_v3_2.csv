@@ -1,0 +1,2 @@
+check_id,before_expected_value,after_expected_value,change_reason,status
+article_title_exact_and_small_capital,食い違いは小規模資本金層に集中していた――法人企業統計、二つの推計を41四半期並べる,利益率方向の食い違いは小規模資本金層に集中していた――法人企業統計、二つの推計を41四半期比べる,主張を営業利益率方向の不一致に限定し、期間表現を最終版へ更新,EXPECTED_VALUE_UPDATED

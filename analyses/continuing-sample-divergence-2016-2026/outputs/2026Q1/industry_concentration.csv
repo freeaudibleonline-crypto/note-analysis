@@ -1,0 +1,4 @@
+metric_id,top_n,actual_n,component_names,top_n_yoy_delta_oku_yen,gross_positive_yoy_delta_oku_yen,share_of_gross_positive_pct,share_of_net_change_pct
+operating_profit,1,1,製造業,27752.569999999992,34810.5,79.72470949857082,106.86292969840487
+operating_profit,3,3,製造業;運輸業、郵便業(集約);不動産業、物品賃貸業(集約),32656.839999999997,34810.5,93.81318854943191,125.7471144867685
+operating_profit,5,5,製造業;運輸業、郵便業(集約);不動産業、物品賃貸業(集約);情報通信業;農林水産業(集約),34758.159999999996,34810.5,99.84964306746527,133.83837275343902

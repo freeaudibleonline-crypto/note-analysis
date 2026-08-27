@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "release_id": "2026Q1",
+  "stage2_config": "config/stage2_2026Q1.json",
+  "activation_snapshot": {
+    "phase2_result": "NO_PERSISTENT_PATTERN",
+    "persistent_candidate_ids": [],
+    "phase3_status": "NOT_ACTIVATED",
+    "raw_acquisition_status": "NOT_REQUESTED",
+    "public_use_status": "PROHIBITED"
+  },
+  "policy": {
+    "source_scope": "OFFICIAL_PRIMARY_SOURCES_ONLY",
+    "phase3_activation_rule": "pattern_status == PERSISTENT_PATTERN",
+    "nonpersistent_handling": "Keep only pre-registered source-plan rows, mark them NOT_ACTIVATED_NON_PERSISTENT, and neither acquire nor assess them.",
+    "dormant_rows_status": "Research plan only. Because no 2026Q1 candidate is PERSISTENT_PATTERN, every row remains PENDING_RESEARCH and NOT_ACQUIRED, is masked as NOT_APPLICABLE in the release ledger, and cannot be cited publicly.",
+    "causal_rule": "No source in this ledger identifies a causal effect. SUPPORTS means directionally consistent, not causal proof.",
+    "company_disclosure_rule": "Company disclosures are not pre-registered for this vintage. If later required for an activated candidate, a company sample must never be generalized to the population.",
+    "allowed_assessments": [
+      "PENDING_RESEARCH",
+      "SUPPORTS",
+      "CONTRADICTS",
+      "MIXED"
+    ]
+  },
+  "candidates": [
+    {
+      "candidate_id": "A",
+      "label_ja": "資本金十億円以上の製造業への経常増益集中",
+      "mechanism_question": "大規模製造業の増益集中は、生産・出荷・輸出など別統計の広がりと整合するか。",
+      "publication_priority": 4
+    },
+    {
+      "candidate_id": "B",
+      "label_ja": "小規模売上増と営業利益率低下・大規模利益率上昇",
+      "mechanism_question": "規模別の販売価格と仕入価格の判断差は利益率の異方向と整合するか。",
+      "publication_priority": 2
+    },
+    {
+      "candidate_id": "C",
+      "label_ja": "設備投資横ばい・ソフトウェア増・ソフト除く投資減",
+      "mechanism_question": "ソフトウェア投資の増加方向は別の公的企業調査でも確認でき、支援制度の時期と整合するか。",
+      "publication_priority": 3
+    },
+    {
+      "candidate_id": "D",
+      "label_ja": "経常利益増加に占める営業利益外差額の改善",
+      "mechanism_question": "受取利息・配当、為替、持分法損益、支払利息等を含み得る純差額の改善要因を、別統計から特定できるか。",
+      "publication_priority": 5
+    },
+    {
+      "candidate_id": "E",
+      "label_ja": "情報通信機械器具製造業の経常増益寄与",
+      "mechanism_question": "利益の押し上げは生産数量、出荷、輸出価額、価格のどれと整合するか。",
+      "publication_priority": 1
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "meti_iip_2026_03_final",
+      "provider": "経済産業省",
+      "source_class": "OFFICIAL_STATISTICS",
+      "document_title": "2026年3月の鉱工業（生産・出荷・在庫）指数の動向（確報）",
+      "url": "https://www.meti.go.jp/statistics/tyo/iip/result/pdf/press/b2020_202603kj.pdf",
+      "landing_page_url": "https://www.meti.go.jp/statistics/tyo/iip/kako_press.html",
+      "publication_date": "2026-05-19",
+      "reference_period": "2026-03 and 2026-Q1",
+      "raw_filename": "meti_iip_2026_03_final.pdf",
+      "content_type": "application/pdf",
+      "request_headers": {
+        "Referer": "https://www.meti.go.jp/statistics/tyo/iip/kako_press.html"
+      }
+    },
+    {
+      "source_id": "mof_trade_2026_03_final_xml",
+      "provider": "財務省関税局",
+      "source_class": "OFFICIAL_STATISTICS",
+      "document_title": "令和8年3月分貿易統計（確報）XML版",
+      "url": "https://www.customs.go.jp/toukei/shinbun/trade-st/2026/2026036.xml",
+      "landing_page_url": "https://www.customs.go.jp/toukei/shinbun/happyou.htm",
+      "publication_date": "2026-05-28",
+      "reference_period": "2026-03",
+      "raw_filename": "mof_trade_2026_03_final.xml",
+      "content_type": "application/xml"
+    },
+    {
+      "source_id": "boj_tankan_2026_03_summary",
+      "provider": "日本銀行",
+      "source_class": "CENTRAL_BANK_PRIMARY_SURVEY",
+      "document_title": "短観（要旨）2026年3月",
+      "url": "https://www.boj.or.jp/statistics/tk/yoshi/tk2603.htm",
+      "landing_page_url": "https://www.boj.or.jp/statistics/tk/tankan03b.htm",
+      "publication_date": "2026-04-01",
+      "reference_period": "2026-03 survey; FY2025 plan and FY2026 plan",
+      "raw_filename": "boj_tankan_2026_03_summary.html",
+      "content_type": "text/html"
+    },
+    {
+      "source_id": "boj_tankan_2026_03_full",
+      "provider": "日本銀行",
+      "source_class": "CENTRAL_BANK_PRIMARY_SURVEY",
+      "document_title": "全国企業短期経済観測調査（2026年3月調査全容）",
+      "url": "https://www.boj.or.jp/statistics/tk/zenyo/2026/data/all2603.zip",
+      "landing_page_url": "https://www.boj.or.jp/statistics/tk/zenyo/2026/all2603.htm",
+      "publication_date": "2026-04-02",
+      "reference_period": "2026-03 survey; FY2025 plan and FY2026 plan",
+      "raw_filename": "boj_tankan_2026_03_full.zip",
+      "content_type": "application/zip"
+    },
+    {
+      "source_id": "boj_cgpi_2026_03",
+      "provider": "日本銀行",
+      "source_class": "CENTRAL_BANK_OFFICIAL_STATISTICS",
+      "document_title": "企業物価指数（2026年3月速報）",
+      "url": "https://www.boj.or.jp/statistics/pi/cgpi_release/cgpi2603.pdf",
+      "landing_page_url": "https://www.boj.or.jp/statistics/pi/cgpi_release/index.htm",
+      "publication_date": "2026-04-10",
+      "reference_period": "2026-03 and 2026-Q1",
+      "raw_filename": "boj_cgpi_2026_03.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "source_id": "smrj_it_grants_2025",
+      "provider": "IT導入補助金事務局（中小企業基盤整備機構関連事業）",
+      "source_class": "OFFICIAL_PROGRAM_ADMINISTRATION",
+      "document_title": "IT導入補助金2025　交付決定事業者一覧および交付申請件数",
+      "url": "https://it-shien.smrj.go.jp/2025/download/grantdecision_list/",
+      "landing_page_url": "https://it-shien.smrj.go.jp/",
+      "publication_date": "2026-02-17",
+      "reference_period": "grant decisions from 2025-06-18 through 2026-02-17",
+      "raw_filename": "smrj_it_grants_2025.html",
+      "content_type": "text/html"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "EV-A-001",
+      "candidate_id": "A",
+      "source_id": "boj_tankan_2026_03_summary",
+      "assessment": "PENDING_RESEARCH",
+      "direct_observation": "NOT_ACQUIRED",
+      "limitation": "短観は年度計画、法人企業統計候補Aは四半期の前年差。標本、規模定義、集計期間が同一でなく、候補Aを直接反証しない。",
+      "claim_use": "PENDING_RESEARCH: 取得後に候補Aとの方向整合性を評価し、因果説明には使用しない。",
+      "causal_inference_allowed": false
+    },
+    {
+      "evidence_id": "EV-A-002",
+      "candidate_id": "A",
+      "source_id": "mof_trade_2026_03_final_xml",
+      "assessment": "PENDING_RESEARCH",
+      "direct_observation": "NOT_ACQUIRED",
+      "limitation": "単月の名目輸出額であり、国内売上、利益、資本金規模を観測しない。製造業全体の利益集中の原因にはできない。",
+      "claim_use": "PENDING_RESEARCH: 取得後に候補Aとの方向整合性を評価し、因果説明には使用しない。",
+      "causal_inference_allowed": false
+    },
+    {
+      "evidence_id": "EV-B-001",
+      "candidate_id": "B",
+      "source_id": "boj_tankan_2026_03_summary",
+      "assessment": "PENDING_RESEARCH",
+      "direct_observation": "NOT_ACQUIRED",
+      "limitation": "DIは値上がり/下がりと回答した企業比率の差で、価格変化率や利益率ではない。短観と法人企業統計の規模定義も完全一致しない。",
+      "claim_use": "PENDING_RESEARCH: 取得後に候補Bとの方向整合性を評価し、因果説明には使用しない。",
+      "causal_inference_allowed": false
+    },
+    {
+      "evidence_id": "EV-B-002",
+      "candidate_id": "B",
+      "source_id": "boj_cgpi_2026_03",
+      "assessment": "PENDING_RESEARCH",
+      "direct_observation": "NOT_ACQUIRED",
+      "limitation": "企業物価指数は財の価格の集計で規模別ではなく、仕入価格と販売価格の企業別マージンを観測しない。",
+      "claim_use": "PENDING_RESEARCH: 取得後に候補Bとの方向整合性を評価し、因果説明には使用しない。",
+      "causal_inference_allowed": false
+    },
+    {
+      "evidence_id": "EV-C-001",
+      "candidate_id": "C",
+      "source_id": "boj_tankan_2026_03_full",
+      "assessment": "PENDING_RESEARCH",
+      "direct_observation": "NOT_ACQUIRED",
+      "limitation": "年度計画であって四半期実績ではない。短観の規模分類と法人企業統計の資本金区分は同一でない。",
+      "claim_use": "PENDING_RESEARCH: 取得後に候補Cとの方向整合性を評価し、因果説明には使用しない。",
+      "causal_inference_allowed": false
+    },
+    {
+      "evidence_id": "EV-C-002",
+      "candidate_id": "C",
+      "source_id": "smrj_it_grants_2025",
+      "assessment": "PENDING_RESEARCH",
+      "direct_observation": "NOT_ACQUIRED",
+      "limitation": "交付決定は実際の投資実行、会計上の計上時期、法人企業統計の推計増加額を示さない。非採択企業も含む集計の原因識別には使えない。",
+      "claim_use": "PENDING_RESEARCH: 取得後に候補Cとの方向整合性を評価し、因果説明には使用しない。",
+      "causal_inference_allowed": false
+    },
+    {
+      "evidence_id": "EV-D-001",
+      "candidate_id": "D",
+      "source_id": "boj_tankan_2026_03_summary",
+      "assessment": "PENDING_RESEARCH",
+      "direct_observation": "NOT_ACQUIRED",
+      "limitation": "DIは借入金利の方向判断であり、支払利息額、受取利息・配当、為替損益、持分法損益を分解しない。",
+      "claim_use": "PENDING_RESEARCH: 取得後に候補Dとの方向整合性を評価し、因果説明には使用しない。",
+      "causal_inference_allowed": false
+    },
+    {
+      "evidence_id": "EV-D-002",
+      "candidate_id": "D",
+      "source_id": "boj_cgpi_2026_03",
+      "assessment": "PENDING_RESEARCH",
+      "direct_observation": "NOT_ACQUIRED",
+      "limitation": "円ベースと契約通貨ベースの差は価格統計上の差であり、企業の為替損益や経常利益を直接観測しない。",
+      "claim_use": "PENDING_RESEARCH: 取得後に候補Dとの方向整合性を評価し、因果説明には使用しない。",
+      "causal_inference_allowed": false
+    },
+    {
+      "evidence_id": "EV-E-001",
+      "candidate_id": "E",
+      "source_id": "meti_iip_2026_03_final",
+      "assessment": "PENDING_RESEARCH",
+      "direct_observation": "NOT_ACQUIRED",
+      "limitation": "IIPは国内事業所の生産・出荷の数量指数で、名目売上、利益、海外生産、資本金規模を観測しない。法人企業統計と業種名の範囲も完全一致するとは限らない。",
+      "claim_use": "PENDING_RESEARCH: 取得後に候補Eとの方向整合性を評価し、因果説明には使用しない。",
+      "causal_inference_allowed": false
+    },
+    {
+      "evidence_id": "EV-E-002",
+      "candidate_id": "E",
+      "source_id": "mof_trade_2026_03_final_xml",
+      "assessment": "PENDING_RESEARCH",
+      "direct_observation": "NOT_ACQUIRED",
+      "limitation": "貿易品目と法人企業統計の業種は一対一対応せず、単月の名目輸出額である。国内売上や利益、企業規模は不明。",
+      "claim_use": "PENDING_RESEARCH: 取得後に候補Eとの方向整合性を評価し、因果説明には使用しない。",
+      "causal_inference_allowed": false
+    },
+    {
+      "evidence_id": "EV-E-003",
+      "candidate_id": "E",
+      "source_id": "boj_cgpi_2026_03",
+      "assessment": "PENDING_RESEARCH",
+      "direct_observation": "NOT_ACQUIRED",
+      "limitation": "価格指数であり、販売数量、販売ミックス、コスト、利益を観測しない。円ベースの上昇を企業の為替益と読み替えてはならない。",
+      "claim_use": "PENDING_RESEARCH: 取得後に候補Eとの方向整合性を評価し、因果説明には使用しない。",
+      "causal_inference_allowed": false
+    }
+  ]
+}

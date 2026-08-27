@@ -1,0 +1,506 @@
+[
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "PROFIT_TO_LOSS",
+    "metric_id": "operating_profit",
+    "industry_name": "その他の物品賃貸業",
+    "capital_size_name": "1千万円以上 - 2千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "ordinary_profit",
+    "industry_name": "その他の輸送用機械器具製造業",
+    "capital_size_name": "1億円以上 - 10億円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "PROFIT_TO_LOSS",
+    "metric_id": "ordinary_profit",
+    "industry_name": "化学工業",
+    "capital_size_name": "1千万円以上 - 5千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "PROFIT_TO_LOSS",
+    "metric_id": "operating_profit",
+    "industry_name": "医療、福祉業",
+    "capital_size_name": "10億円以上"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "PROFIT_TO_LOSS",
+    "metric_id": "operating_profit",
+    "industry_name": "医療、福祉業",
+    "capital_size_name": "1千万円以上 - 2千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "operating_profit",
+    "industry_name": "医療、福祉業",
+    "capital_size_name": "5千万円以上 - 1億円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "ordinary_profit",
+    "industry_name": "医療、福祉業",
+    "capital_size_name": "5千万円以上 - 1億円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "operating_profit",
+    "industry_name": "娯楽業",
+    "capital_size_name": "2千万円以上 - 5千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "operating_profit",
+    "industry_name": "宿泊業",
+    "capital_size_name": "1千万円以上 - 2千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "ordinary_profit",
+    "industry_name": "宿泊業",
+    "capital_size_name": "1千万円以上 - 2千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "PROFIT_TO_LOSS",
+    "metric_id": "operating_profit",
+    "industry_name": "宿泊業",
+    "capital_size_name": "2千万円以上 - 5千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "PROFIT_TO_LOSS",
+    "metric_id": "ordinary_profit",
+    "industry_name": "宿泊業",
+    "capital_size_name": "2千万円以上 - 5千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "PROFIT_TO_LOSS",
+    "metric_id": "operating_profit",
+    "industry_name": "情報通信業",
+    "capital_size_name": "1千万円以上 - 2千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "PROFIT_TO_LOSS",
+    "metric_id": "ordinary_profit",
+    "industry_name": "情報通信業",
+    "capital_size_name": "1千万円以上 - 2千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "operating_profit",
+    "industry_name": "木材・木製品製造業",
+    "capital_size_name": "2千万円以上 - 5千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "operating_profit",
+    "industry_name": "水運業",
+    "capital_size_name": "1億円以上 - 10億円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "PROFIT_TO_LOSS",
+    "metric_id": "operating_profit",
+    "industry_name": "水運業",
+    "capital_size_name": "5千万円以上 - 1億円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "operating_profit",
+    "industry_name": "漁業",
+    "capital_size_name": "1千万円以上 - 1億円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "operating_profit",
+    "industry_name": "漁業",
+    "capital_size_name": "全規模"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "operating_profit",
+    "industry_name": "生活関連サービス業、娯楽業(集約)",
+    "capital_size_name": "2千万円以上 - 5千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "operating_profit",
+    "industry_name": "石油製品・石炭製品製造業",
+    "capital_size_name": "10億円以上"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "PROFIT_TO_LOSS",
+    "metric_id": "operating_profit",
+    "industry_name": "純粋持株会社",
+    "capital_size_name": "1千万円以上 - 1億円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "PROFIT_TO_LOSS",
+    "metric_id": "operating_profit",
+    "industry_name": "純粋持株会社",
+    "capital_size_name": "1千万円以上 - 5千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "PROFIT_TO_LOSS",
+    "metric_id": "operating_profit",
+    "industry_name": "純粋持株会社",
+    "capital_size_name": "2千万円以上 - 5千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "ordinary_profit",
+    "industry_name": "繊維工業",
+    "capital_size_name": "5千万円以上 - 1億円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "PROFIT_TO_LOSS",
+    "metric_id": "operating_profit",
+    "industry_name": "職業紹介・労働者派遣業",
+    "capital_size_name": "1千万円以上 - 2千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "PROFIT_TO_LOSS",
+    "metric_id": "ordinary_profit",
+    "industry_name": "職業紹介・労働者派遣業",
+    "capital_size_name": "1千万円以上 - 2千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "PROFIT_TO_LOSS",
+    "metric_id": "operating_profit",
+    "industry_name": "職業紹介・労働者派遣業",
+    "capital_size_name": "1千万円以上 - 5千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "PROFIT_TO_LOSS",
+    "metric_id": "ordinary_profit",
+    "industry_name": "職業紹介・労働者派遣業",
+    "capital_size_name": "1千万円以上 - 5千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "PROFIT_TO_LOSS",
+    "metric_id": "operating_profit",
+    "industry_name": "職業紹介・労働者派遣業",
+    "capital_size_name": "2千万円以上 - 5千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "PROFIT_TO_LOSS",
+    "metric_id": "operating_profit",
+    "industry_name": "農林水産業(集約)",
+    "capital_size_name": "1億円以上"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "PROFIT_TO_LOSS",
+    "metric_id": "ordinary_profit",
+    "industry_name": "農林水産業(集約)",
+    "capital_size_name": "1億円以上"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "operating_profit",
+    "industry_name": "農林水産業(集約)",
+    "capital_size_name": "1千万円以上 - 1億円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "operating_profit",
+    "industry_name": "農林水産業(集約)",
+    "capital_size_name": "1千万円以上 - 2千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "ordinary_profit",
+    "industry_name": "農林水産業(集約)",
+    "capital_size_name": "1千万円以上 - 2千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "operating_profit",
+    "industry_name": "農林水産業(集約)",
+    "capital_size_name": "1千万円以上 - 5千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "operating_profit",
+    "industry_name": "農林水産業(集約)",
+    "capital_size_name": "5千万円以上 - 1億円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "ordinary_profit",
+    "industry_name": "農林水産業(集約)",
+    "capital_size_name": "5千万円以上 - 1億円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "operating_profit",
+    "industry_name": "農林水産業(集約)",
+    "capital_size_name": "全規模"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "PROFIT_TO_LOSS",
+    "metric_id": "operating_profit",
+    "industry_name": "農業、林業",
+    "capital_size_name": "1億円以上"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "PROFIT_TO_LOSS",
+    "metric_id": "ordinary_profit",
+    "industry_name": "農業、林業",
+    "capital_size_name": "1億円以上"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "operating_profit",
+    "industry_name": "農業、林業",
+    "capital_size_name": "1千万円以上 - 1億円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "operating_profit",
+    "industry_name": "農業、林業",
+    "capital_size_name": "1千万円以上 - 2千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "ordinary_profit",
+    "industry_name": "農業、林業",
+    "capital_size_name": "1千万円以上 - 2千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "operating_profit",
+    "industry_name": "農業、林業",
+    "capital_size_name": "1千万円以上 - 5千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "operating_profit",
+    "industry_name": "農業、林業",
+    "capital_size_name": "全規模"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "PROFIT_TO_LOSS",
+    "metric_id": "ordinary_profit",
+    "industry_name": "電気業",
+    "capital_size_name": "10億円以上"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "PROFIT_TO_LOSS",
+    "metric_id": "ordinary_profit",
+    "industry_name": "電気業",
+    "capital_size_name": "1億円以上"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "operating_profit",
+    "industry_name": "電気業",
+    "capital_size_name": "1千万円以上 - 1億円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "ordinary_profit",
+    "industry_name": "電気業",
+    "capital_size_name": "1千万円以上 - 1億円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "operating_profit",
+    "industry_name": "電気業",
+    "capital_size_name": "1千万円以上 - 2千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "ordinary_profit",
+    "industry_name": "電気業",
+    "capital_size_name": "1千万円以上 - 2千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "operating_profit",
+    "industry_name": "電気業",
+    "capital_size_name": "1千万円以上 - 5千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "ordinary_profit",
+    "industry_name": "電気業",
+    "capital_size_name": "1千万円以上 - 5千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "PROFIT_TO_LOSS",
+    "metric_id": "ordinary_profit",
+    "industry_name": "電気業",
+    "capital_size_name": "全規模"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "PROFIT_TO_LOSS",
+    "metric_id": "ordinary_profit",
+    "industry_name": "電気機械器具製造業",
+    "capital_size_name": "1億円以上 - 10億円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "operating_profit",
+    "industry_name": "非鉄金属製造業",
+    "capital_size_name": "2千万円以上 - 5千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "ordinary_profit",
+    "industry_name": "非鉄金属製造業",
+    "capital_size_name": "2千万円以上 - 5千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "ordinary_profit",
+    "industry_name": "食料品製造業",
+    "capital_size_name": "1千万円以上 - 1億円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "operating_profit",
+    "industry_name": "食料品製造業",
+    "capital_size_name": "1千万円以上 - 5千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "ordinary_profit",
+    "industry_name": "食料品製造業",
+    "capital_size_name": "1千万円以上 - 5千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "operating_profit",
+    "industry_name": "食料品製造業",
+    "capital_size_name": "2千万円以上 - 5千万円未満"
+  },
+  {
+    "kind": "PROFIT_LOSS_TRANSITION",
+    "severity": "INFO",
+    "detail": "LOSS_TO_PROFIT",
+    "metric_id": "ordinary_profit",
+    "industry_name": "食料品製造業",
+    "capital_size_name": "2千万円以上 - 5千万円未満"
+  }
+]

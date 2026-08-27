@@ -1,0 +1,343 @@
+{
+  "chart_count": 3,
+  "charts": [
+    {
+      "additional_sources": [],
+      "axis_labels": [
+        "資本金階層",
+        "指標",
+        "方向不一致率（%）"
+      ],
+      "chart_id": "mismatch_heatmap",
+      "footnote_text": "注：利益率方向は売上高前年比と営業利益前年比から推定した相対変化の方向。利益率水準のポイント変化ではない。\n判定余裕中央値（小・中間・大）：11.3pt／9.0pt／8.5pt；系列間乖離中央値：11.21pt／4.07pt／1.05pt。出所：財務省、e-Stat。",
+      "generated_by": "corporate_quarterly.stage5_charts",
+      "legend_labels": [
+        "方向不一致率"
+      ],
+      "numeric_source_role": "SOURCE_CSV_NOT_CLAIMS",
+      "png_path": "charts/mismatch_heatmap.png",
+      "png_sha256": "f2eda8f323144d60c98df10d278973c6ebd946d083c53f8bb68530bba767a799",
+      "referenced_claim_ids": [
+        "V31-CENSUS-THRESHOLD",
+        "V31-LARGE-DECISION-MARGIN-MEDIAN",
+        "V31-LARGE-SERIES-DIVERGENCE-MEDIAN",
+        "V31-MIDDLE-DECISION-MARGIN-MEDIAN",
+        "V31-MIDDLE-SERIES-DIVERGENCE-MEDIAN",
+        "V31-MISMATCH-LARGE-MARGIN-DIRECTION",
+        "V31-MISMATCH-LARGE-OPERATING-PROFIT",
+        "V31-MISMATCH-LARGE-SALES",
+        "V31-MISMATCH-MIDDLE-MARGIN-DIRECTION",
+        "V31-MISMATCH-MIDDLE-OPERATING-PROFIT",
+        "V31-MISMATCH-MIDDLE-SALES",
+        "V31-MISMATCH-SMALL-OPERATING-PROFIT",
+        "V31-MISMATCH-SMALL-SALES",
+        "V31-SMALL-DECISION-MARGIN-MEDIAN",
+        "V31-SMALL-MARGIN-DIRECTION-MISMATCH",
+        "V31-SMALL-SERIES-DIVERGENCE-MEDIAN"
+      ],
+      "regenerated_in_release": true,
+      "release_id": "2026Q1_v3_2",
+      "source_csv": "mismatch_heatmap.csv",
+      "source_csv_sha256": "3eba9aef516f4574888e4d58bdae7152b5b8ff1208f7abf7009cde1a4e8a32a1",
+      "structured_metadata": {
+        "cells": [
+          {
+            "capital_tier": "small",
+            "denominator": 41,
+            "metric_id": "relative_margin_direction",
+            "numerator": 16,
+            "rate_percent": 39.02439024390244
+          },
+          {
+            "capital_tier": "small",
+            "denominator": 41,
+            "metric_id": "operating_profit",
+            "numerator": 13,
+            "rate_percent": 31.70731707317073
+          },
+          {
+            "capital_tier": "small",
+            "denominator": 40,
+            "metric_id": "sales",
+            "numerator": 6,
+            "rate_percent": 15.0
+          },
+          {
+            "capital_tier": "middle",
+            "denominator": 41,
+            "metric_id": "relative_margin_direction",
+            "numerator": 6,
+            "rate_percent": 14.634146341463412
+          },
+          {
+            "capital_tier": "middle",
+            "denominator": 41,
+            "metric_id": "operating_profit",
+            "numerator": 4,
+            "rate_percent": 9.75609756097561
+          },
+          {
+            "capital_tier": "middle",
+            "denominator": 41,
+            "metric_id": "sales",
+            "numerator": 7,
+            "rate_percent": 17.073170731707318
+          },
+          {
+            "capital_tier": "large",
+            "denominator": 41,
+            "metric_id": "relative_margin_direction",
+            "numerator": 0,
+            "rate_percent": 0.0
+          },
+          {
+            "capital_tier": "large",
+            "denominator": 41,
+            "metric_id": "operating_profit",
+            "numerator": 0,
+            "rate_percent": 0.0
+          },
+          {
+            "capital_tier": "large",
+            "denominator": 41,
+            "metric_id": "sales",
+            "numerator": 1,
+            "rate_percent": 2.4390243902439024
+          }
+        ],
+        "cross_series_divergence_medians": [
+          {
+            "capital_tier": "small",
+            "unit": "percentage_points",
+            "value": 11.20869500294094
+          },
+          {
+            "capital_tier": "middle",
+            "unit": "percentage_points",
+            "value": 4.070024346681685
+          },
+          {
+            "capital_tier": "large",
+            "unit": "percentage_points",
+            "value": 1.0500234778042916
+          }
+        ],
+        "decision_margin_medians": [
+          {
+            "capital_tier": "small",
+            "unit": "percentage_points",
+            "value": 11.3
+          },
+          {
+            "capital_tier": "middle",
+            "unit": "percentage_points",
+            "value": 9.0
+          },
+          {
+            "capital_tier": "large",
+            "unit": "percentage_points",
+            "value": 8.5
+          }
+        ]
+      },
+      "title": "通常系列と継続標本系列の方向不一致率\n（2016Q1～2026Q1）",
+      "units": {
+        "comparable_quarters": "count",
+        "continuing_decision_margin_abs_gap_median_pp": "percentage_points",
+        "cross_series_growth_gap_divergence_median_pp": "percentage_points",
+        "mismatch_count": "count",
+        "mismatch_rate_pct": "percent"
+      }
+    },
+    {
+      "additional_sources": [],
+      "axis_labels": [
+        "通常系列",
+        "継続標本系列"
+      ],
+      "chart_id": "headline_2x2",
+      "footnote_text": "注：2026Q1の結果を確認後に過去へ適用した探索的な複合見出し判定。成立回数は通常系列10回、継続標本系列3回。将来頻度の推計ではない。出所：財務省、e-Stat。",
+      "generated_by": "corporate_quarterly.stage5_charts",
+      "legend_labels": [
+        "成立",
+        "不成立"
+      ],
+      "numeric_source_role": "SOURCE_CSV_NOT_CLAIMS",
+      "png_path": "charts/headline_2x2.png",
+      "png_sha256": "2b97d7061e68064019c10779060023a8e60047c56243eff40ef1ccdfc6c8da32",
+      "referenced_claim_ids": [
+        "V31-COMPOSITE-HEADLINE-MISMATCH",
+        "V31-HEADLINE-2X2-BOTH",
+        "V31-HEADLINE-2X2-CONTINUING-ONLY",
+        "V31-HEADLINE-2X2-NEITHER",
+        "V31-HEADLINE-2X2-REGULAR-ONLY",
+        "V31-HEADLINE-CONTINUING-TOTAL",
+        "V31-HEADLINE-REGULAR-TOTAL"
+      ],
+      "regenerated_in_release": true,
+      "release_id": "2026Q1_v3_2",
+      "source_csv": "headline_2x2.csv",
+      "source_csv_sha256": "b3cdffd37a465cd1ded4e65ec15303fd0dce5e7ff6e2f9284b824c0787af9235",
+      "structured_metadata": {
+        "cells": [
+          {
+            "cell_id": "REGULAR_ONLY",
+            "continuing_headline_supported": false,
+            "quarter_count": 9,
+            "regular_headline_supported": true
+          },
+          {
+            "cell_id": "CONTINUING_ONLY",
+            "continuing_headline_supported": true,
+            "quarter_count": 2,
+            "regular_headline_supported": false
+          },
+          {
+            "cell_id": "BOTH",
+            "continuing_headline_supported": true,
+            "quarter_count": 1,
+            "regular_headline_supported": true
+          },
+          {
+            "cell_id": "NEITHER",
+            "continuing_headline_supported": false,
+            "quarter_count": 29,
+            "regular_headline_supported": false
+          }
+        ],
+        "continuing_supported_total": 3,
+        "regular_supported_total": 10
+      },
+      "title": "複合見出し判定の2×2表（41四半期）",
+      "units": {
+        "quarter_count": "count"
+      }
+    },
+    {
+      "additional_sources": [
+        {
+          "source_csv": "mismatch_heatmap.csv",
+          "source_csv_sha256": "3eba9aef516f4574888e4d58bdae7152b5b8ff1208f7abf7009cde1a4e8a32a1"
+        }
+      ],
+      "axis_labels": [
+        "deadband d（営業利益率の推定相対変化率・%）",
+        "残存期の利益率方向不一致率（%）"
+      ],
+      "chart_id": "deadband_sensitivity",
+      "footnote_text": "注：deadbandは、売上高前年比と営業利益前年比から推定した営業利益率の相対変化率に対する％。営業利益率の絶対的なパーセントポイント差ではない。両系列がともに±d外の期だけを残す。",
+      "generated_by": "corporate_quarterly.stage5_charts",
+      "legend_labels": [
+        "1,000万円以上1億円未満層",
+        "1億円以上10億円未満層",
+        "10億円以上層"
+      ],
+      "numeric_source_role": "SOURCE_CSV_NOT_CLAIMS",
+      "png_path": "charts/deadband_sensitivity.png",
+      "png_sha256": "b030b8b17602412a291bc969fd7a48d5a225cd80acd3dd29df7f3220db209fbc",
+      "referenced_claim_ids": [
+        "V31-DEADBAND-LARGE-D005",
+        "V31-DEADBAND-LARGE-D010",
+        "V31-DEADBAND-LARGE-D020",
+        "V31-DEADBAND-LARGE-D030",
+        "V31-DEADBAND-MIDDLE-D005",
+        "V31-DEADBAND-MIDDLE-D010",
+        "V31-DEADBAND-MIDDLE-D020",
+        "V31-DEADBAND-MIDDLE-D030",
+        "V31-DEADBAND-SMALL-D005",
+        "V31-DEADBAND-SMALL-D010",
+        "V31-DEADBAND-SMALL-D020",
+        "V31-DEADBAND-SMALL-D030",
+        "V31-SMALL-MARGIN-DIRECTION-MISMATCH"
+      ],
+      "regenerated_in_release": true,
+      "release_id": "2026Q1_v3_2",
+      "source_csv": "deadband_sensitivity.csv",
+      "source_csv_sha256": "71df655b1e0a188592757384a41b4c59a65a5d19b84a95bbf2aa69dbd1ab0f5e",
+      "structured_metadata": {
+        "d3_by_capital_tier": [
+          {
+            "capital_tier": "small",
+            "denominator": 29,
+            "numerator": 8,
+            "rate_percent": 27.58620689655172
+          },
+          {
+            "capital_tier": "middle",
+            "denominator": 29,
+            "numerator": 0,
+            "rate_percent": 0.0
+          },
+          {
+            "capital_tier": "large",
+            "denominator": 33,
+            "numerator": 0,
+            "rate_percent": 0.0
+          }
+        ],
+        "deadband_definition": "percent of implied relative operating-margin change; not an absolute operating-margin percentage-point difference",
+        "small_capital_series": [
+          {
+            "deadband_label": "なし",
+            "deadband_percent": 0.0,
+            "denominator": 41,
+            "numerator": 16,
+            "rate_percent": 39.02439024390244,
+            "row_origin": "DERIVED_FROM_MISMATCH_HEATMAP_SOURCE"
+          },
+          {
+            "deadband_label": "±0.5%",
+            "deadband_percent": 0.5,
+            "denominator": 39,
+            "numerator": 15,
+            "rate_percent": 38.46153846153847,
+            "row_origin": "SOURCE_CSV"
+          },
+          {
+            "deadband_label": "±1%",
+            "deadband_percent": 1.0,
+            "denominator": 37,
+            "numerator": 14,
+            "rate_percent": 37.83783783783784,
+            "row_origin": "SOURCE_CSV"
+          },
+          {
+            "deadband_label": "±2%",
+            "deadband_percent": 2.0,
+            "denominator": 33,
+            "numerator": 10,
+            "rate_percent": 30.303030303030305,
+            "row_origin": "SOURCE_CSV"
+          },
+          {
+            "deadband_label": "±3%",
+            "deadband_percent": 3.0,
+            "denominator": 29,
+            "numerator": 8,
+            "rate_percent": 27.58620689655172,
+            "row_origin": "SOURCE_CSV"
+          }
+        ]
+      },
+      "title": "利益率方向不一致率のdeadband感応度",
+      "units": {
+        "deadband_pct": "percent",
+        "implied_relative_margin_change": "percent",
+        "mismatch_count": "count",
+        "mismatch_rate_pct": "percent",
+        "retained_quarters": "count"
+      }
+    }
+  ],
+  "lineage": {
+    "branches": [
+      "claims_v3_2.csv",
+      "charts/*.png",
+      "article_note.md"
+    ],
+    "numeric_source": "canonical release CSVs",
+    "prohibited_topology": "claims-only chart generation"
+  },
+  "release_id": "2026Q1_v3_2",
+  "release_output_directory": "outputs/2026Q1_v3_2"
+}

@@ -1,0 +1,432 @@
+{
+  "query": {
+    "rows": [
+      {
+        "matterId": 4,
+        "tableName": "MH_BU7IIW_0001017204",
+        "dispTableName": "S7IIW_0003061946_BUN02",
+        "positionNum": "1",
+        "listData": [
+          {
+            "name": "全産業(金融業、保険業を含む)",
+            "code": "210",
+            "unit": "",
+            "explanation": ""
+          }
+        ],
+        "allSelected": 1
+      },
+      {
+        "matterId": 5,
+        "tableName": "MH_BU7IIW_0001017206",
+        "dispTableName": "S7IIW_0003061946_BUN03",
+        "positionNum": "2",
+        "listData": [
+          {
+            "name": "全規模",
+            "code": "26",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "10億円以上",
+            "code": "25",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1億円以上 - 10億円未満",
+            "code": "24",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1千万円以上 - 1億円未満",
+            "code": "19",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1億円以上",
+            "code": "23",
+            "unit": "",
+            "explanation": ""
+          }
+        ],
+        "allSelected": 1
+      },
+      {
+        "matterId": 2,
+        "tableName": "MH_TMY7IIW_0001002584",
+        "dispTableName": "S7IIW_0003061946_TIME",
+        "positionNum": "3",
+        "listData": [
+          {
+            "name": "2025年1 - 3 月",
+            "code": "20251",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2025年10 - 12 月",
+            "code": "20254",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2026年1 - 3 月",
+            "code": "20261",
+            "unit": "",
+            "explanation": ""
+          }
+        ],
+        "allSelected": 0
+      }
+    ],
+    "cols": [
+      {
+        "matterId": 3,
+        "tableName": "MH_BU7IIW_0001017166",
+        "dispTableName": "S7IIW_0003061946_BUN01",
+        "positionNum": "1",
+        "listData": [
+          {
+            "name": "設備投資(当期末新設固定資産合計)",
+            "code": "040",
+            "unit": "百万円",
+            "explanation": ""
+          },
+          {
+            "name": "ソフトウェアを除く設備投資(当期末新設固定資産)",
+            "code": "225",
+            "unit": "百万円",
+            "explanation": ""
+          },
+          {
+            "name": "経常利益(当期末)",
+            "code": "086",
+            "unit": "百万円",
+            "explanation": ""
+          },
+          {
+            "name": "従業員数(当期末)",
+            "code": "088",
+            "unit": "人",
+            "explanation": ""
+          },
+          {
+            "name": "従業員給与(当期末)",
+            "code": "091",
+            "unit": "百万円",
+            "explanation": ""
+          },
+          {
+            "name": "従業員賞与(当期末)",
+            "code": "233",
+            "unit": "百万円",
+            "explanation": ""
+          }
+        ],
+        "allSelected": 0
+      }
+    ],
+    "tops": [],
+    "apiTops": [],
+    "annotationFlg": 1,
+    "rowNoDataDispFlg": 0,
+    "colNoDataDispFlg": 0,
+    "commaType": 0,
+    "replaceSpChars": 0,
+    "graphAxis": "horizontal",
+    "graphBasis": "head",
+    "graphSort": "asc",
+    "graphTitle": "",
+    "graphType": "barChart",
+    "inputNumberOfCols": 100,
+    "inputNumberOfRows": 100000,
+    "movementId": 0,
+    "leftMoveFlg": 0,
+    "rightMoveFlg": 0,
+    "underMoveFlg": 0,
+    "upMoveFlg": 0,
+    "currentCols": null,
+    "currentRows": null,
+    "mode": "table"
+  },
+  "dimension_spec": {
+    "dimension_keys": {
+      "metric": "matter3",
+      "industry": "matter4",
+      "capital": "matter5",
+      "time": "matter2"
+    },
+    "metrics": {
+      "capex_including_software": {
+        "code": "040",
+        "name": "設備投資(当期末新設固定資産合計)",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 180,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "百万円",
+        "unitExplanation": null,
+        "selected": true,
+        "picked": false,
+        "metric_id": "capex_including_software",
+        "metric_label_ja": "設備投資（ソフトウェア込み）"
+      },
+      "capex_excluding_software": {
+        "code": "225",
+        "name": "ソフトウェアを除く設備投資(当期末新設固定資産)",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 190,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "百万円",
+        "unitExplanation": null,
+        "selected": true,
+        "picked": false,
+        "metric_id": "capex_excluding_software",
+        "metric_label_ja": "設備投資（ソフトウェア除く）"
+      },
+      "ordinary_profit": {
+        "code": "086",
+        "name": "経常利益(当期末)",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 570,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "百万円",
+        "unitExplanation": null,
+        "selected": true,
+        "picked": false,
+        "metric_id": "ordinary_profit",
+        "metric_label_ja": "経常利益"
+      },
+      "employee_count": {
+        "code": "088",
+        "name": "従業員数(当期末)",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 590,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "人",
+        "unitExplanation": null,
+        "selected": true,
+        "picked": false,
+        "metric_id": "employee_count",
+        "metric_label_ja": "従業員数"
+      },
+      "employee_wages": {
+        "code": "091",
+        "name": "従業員給与(当期末)",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 630,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "百万円",
+        "unitExplanation": null,
+        "selected": true,
+        "picked": false,
+        "metric_id": "employee_wages",
+        "metric_label_ja": "従業員給与"
+      },
+      "employee_bonuses": {
+        "code": "233",
+        "name": "従業員賞与(当期末)",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 640,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "百万円",
+        "unitExplanation": null,
+        "selected": true,
+        "picked": false,
+        "metric_id": "employee_bonuses",
+        "metric_label_ja": "従業員賞与"
+      }
+    },
+    "industry": [
+      {
+        "code": "210",
+        "name": "全産業(金融業、保険業を含む)",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 0,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      }
+    ],
+    "capital": [
+      {
+        "code": "26",
+        "name": "全規模",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 1,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "25",
+        "name": "10億円以上",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 2,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "24",
+        "name": "1億円以上 - 10億円未満",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 3,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19",
+        "name": "1千万円以上 - 1億円未満",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 4,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "23",
+        "name": "1億円以上",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 5,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      }
+    ],
+    "time": [
+      {
+        "code": "20251",
+        "name": "2025年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2850,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20254",
+        "name": "2025年10 - 12 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2880,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20261",
+        "name": "2026年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2890,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      }
+    ]
+  },
+  "canonical_metric_map": {
+    "capex_including_software": {
+      "code": "040",
+      "source_name": "設備投資(当期末新設固定資産合計)",
+      "metric_label_ja": "設備投資（ソフトウェア込み）",
+      "source_unit": "百万円"
+    },
+    "capex_excluding_software": {
+      "code": "225",
+      "source_name": "ソフトウェアを除く設備投資(当期末新設固定資産)",
+      "metric_label_ja": "設備投資（ソフトウェア除く）",
+      "source_unit": "百万円"
+    },
+    "ordinary_profit": {
+      "code": "086",
+      "source_name": "経常利益(当期末)",
+      "metric_label_ja": "経常利益",
+      "source_unit": "百万円"
+    },
+    "employee_count": {
+      "code": "088",
+      "source_name": "従業員数(当期末)",
+      "metric_label_ja": "従業員数",
+      "source_unit": "人"
+    },
+    "employee_wages": {
+      "code": "091",
+      "source_name": "従業員給与(当期末)",
+      "metric_label_ja": "従業員給与",
+      "source_unit": "百万円"
+    },
+    "employee_bonuses": {
+      "code": "233",
+      "source_name": "従業員賞与(当期末)",
+      "metric_label_ja": "従業員賞与",
+      "source_unit": "百万円"
+    }
+  }
+}

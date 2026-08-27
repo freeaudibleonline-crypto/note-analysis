@@ -1,0 +1,209 @@
+{
+  "manifest_version": 1,
+  "continuing_vintage_id": "continuing_sample_2026Q1",
+  "target_period_code": "20261",
+  "target_period_label": "2026年1 - 3月",
+  "publication_date": "2026-06-01",
+  "generated_at": "2026-08-25T20:26:40.100165+00:00",
+  "numeric_authority": {
+    "continuing_sample": "official Ministry of Finance keizoku.pdf",
+    "regular_series": "e-Stat table 1 DB-view structured response"
+  },
+  "raw_mutation_policy": "immutable; refuse overwrite and verify every SHA-256",
+  "continuing_period": {
+    "first_period_code": "20161",
+    "last_period_code": "20261",
+    "quarter_count": 41,
+    "structured_row_count": 984
+  },
+  "regular_period": {
+    "source_first_period_code": "20151",
+    "analysis_first_period_code": "20161",
+    "last_period_code": "20261",
+    "source_quarter_count": 45,
+    "source_row_count": 2160,
+    "source_missing_count": 0,
+    "vintage_status": "CURRENT_VINTAGE_HISTORICAL_SERIES",
+    "revision_robustness_status": "NOT_TESTED_NO_PRIOR_PUBLICATION_VINTAGES"
+  },
+  "selection": {
+    "metrics": [
+      {
+        "metric_id": "sales",
+        "code": "078",
+        "name": "売上高(当期末)"
+      },
+      {
+        "metric_id": "operating_profit",
+        "code": "081",
+        "name": "営業利益(当期末)"
+      },
+      {
+        "metric_id": "ordinary_profit",
+        "code": "086",
+        "name": "経常利益(当期末)"
+      },
+      {
+        "metric_id": "capex_including_software",
+        "code": "040",
+        "name": "設備投資(当期末新設固定資産合計)"
+      }
+    ],
+    "industries": [
+      {
+        "code": "104",
+        "name": "全産業（除く金融保険業）"
+      },
+      {
+        "code": "108",
+        "name": "製造業"
+      },
+      {
+        "code": "144",
+        "name": "非製造業"
+      }
+    ],
+    "capital_sizes": [
+      {
+        "code": "26",
+        "name": "全規模"
+      },
+      {
+        "code": "25",
+        "name": "10億円以上"
+      },
+      {
+        "code": "24",
+        "name": "1億円以上 - 10億円未満"
+      },
+      {
+        "code": "19",
+        "name": "1千万円以上 - 1億円未満"
+      }
+    ],
+    "capital_pdf_to_estat_mapping": {
+      "大企業": {
+        "estat_capital_code": "25",
+        "estat_capital_name": "10億円以上"
+      },
+      "中堅企業": {
+        "estat_capital_code": "24",
+        "estat_capital_name": "1億円以上 - 10億円未満"
+      },
+      "中小企業": {
+        "estat_capital_code": "19",
+        "estat_capital_name": "1千万円以上 - 1億円未満"
+      }
+    },
+    "regular_capex_definition": "software_including metric code 040"
+  },
+  "pdf_validation": {
+    "page_count": 1,
+    "page_width_points": 595.22,
+    "page_height_points": 842.0,
+    "detected_table_count": 4,
+    "detected_tables": [
+      "industry_yoy_rates",
+      "capital_yoy_rates",
+      "response_counts",
+      "standard_error_rates"
+    ],
+    "pdf_metadata": {
+      "/Author": "財務省",
+      "/CreationDate": "D:20260527145120+09'00'",
+      "/Creator": "PScript5.dll Version 5.2.2",
+      "/ModDate": "D:20260528131447+09'00'",
+      "/Producer": "Acrobat Distiller 26.0 (Windows)",
+      "/Title": ""
+    },
+    "industry_quarter_count": 41,
+    "capital_quarter_count": 41,
+    "industry_numeric_cell_count": 492,
+    "capital_numeric_cell_count": 492,
+    "response_count_cells": 3,
+    "published_standard_error_cells": 6,
+    "profit_standard_error_null_cells": 6,
+    "visual_qa": {
+      "status": "PASS",
+      "all_pages_rendered": true,
+      "rendered_page_count": 1,
+      "inspection": "Full page rendered at 180 dpi; response-count, standard-error, and footnote region additionally inspected at 400 dpi."
+    }
+  },
+  "limitations": {
+    "continuing_sample_definition": "継続標本とは、前年同期及び当期ともに標本となった法人。",
+    "small_sample": "継続標本のみを用い母集団推計を行うため、本系列に比べサンプルサイズが小さくなる。",
+    "profit_standard_error": "営業利益及び経常利益については、標準誤差率の算出は行っていない。",
+    "coverage": "全産業及び非製造業には金融業、保険業は含まれない。",
+    "relative_margin_proxy": "継続標本PDFは利益水準とその符号を公表しないため、売上高と営業利益の増加率から得る利益率方向は代理指標である。"
+  },
+  "parse_quality_log": [],
+  "sources": [
+    {
+      "source_id": "keizoku_pdf",
+      "role": "continuing_sample_numeric_authority_and_notes",
+      "provider": "Ministry of Finance Japan",
+      "url": "https://www.mof.go.jp/pri/reference/ssc/results/keizoku.pdf",
+      "http_method": "GET",
+      "retrieved_at": "2026-08-25T20:26:28.483215+00:00",
+      "publication_date": "2026-06-01",
+      "target_period_code": "20261",
+      "raw_path": "data/raw/continuing_sample_2026Q1/keizoku.pdf",
+      "sha256": "0aa38ecb0dd6509bce70123955c2d9585e0143fab14ecd63be0dbc8cf7d996f6",
+      "bytes": 82725,
+      "content_type": "application/pdf",
+      "source_page_url": "https://www.mof.go.jp/pri/reference/ssc/results/data.htm",
+      "http_last_modified": "Sun, 31 May 2026 22:50:51 GMT",
+      "http_etag": "\"14325-65324e8dd28c0\"",
+      "page_count": 1
+    },
+    {
+      "source_id": "regular_table1_model",
+      "role": "regular_series_dimension_metadata",
+      "provider": "e-Stat",
+      "url": "https://www.e-stat.go.jp/dbview/api_get_model?sid=0003060191",
+      "http_method": "POST",
+      "retrieved_at": "2026-08-25T20:26:30.584757+00:00",
+      "publication_date": "2026-06-01",
+      "target_period_code": "20261",
+      "raw_path": "data/raw/continuing_sample_2026Q1/regular_table1_model.json",
+      "sha256": "0c05a58644a11d0395d17770f3c9b1964713a72df3359245c58d9802dd49b41c",
+      "bytes": 145063,
+      "content_type": "application/json",
+      "estat_sid": "0003060191",
+      "table_number": "1"
+    },
+    {
+      "source_id": "regular_table1_query",
+      "role": "regular_series_exact_request_metadata",
+      "provider": "e-Stat",
+      "url": "https://www.e-stat.go.jp/dbview/api_get_result?sid=0003060191",
+      "http_method": "POST",
+      "retrieved_at": "2026-08-25T20:26:30.585819+00:00",
+      "publication_date": "2026-06-01",
+      "target_period_code": "20261",
+      "raw_path": "data/raw/continuing_sample_2026Q1/regular_table1_query.json",
+      "sha256": "db531f2c75ebbbdf1a5ecc786e00eeb6b45b2bfdcb3d1f36a0471d780629c2d8",
+      "bytes": 31035,
+      "content_type": "application/json",
+      "estat_sid": "0003060191",
+      "table_number": "1"
+    },
+    {
+      "source_id": "regular_table1_values",
+      "role": "regular_series_numeric_authority",
+      "provider": "e-Stat",
+      "url": "https://www.e-stat.go.jp/dbview/api_get_result?sid=0003060191",
+      "http_method": "POST",
+      "retrieved_at": "2026-08-25T20:26:39.855040+00:00",
+      "publication_date": "2026-06-01",
+      "target_period_code": "20261",
+      "raw_path": "data/raw/continuing_sample_2026Q1/regular_table1_values.json",
+      "sha256": "bb2f7d71de33baa887c1eb1ca02d5beffa75a505001955d090953b1f5bc59bed",
+      "bytes": 461102,
+      "content_type": "application/json",
+      "estat_sid": "0003060191",
+      "table_number": "1"
+    }
+  ]
+}

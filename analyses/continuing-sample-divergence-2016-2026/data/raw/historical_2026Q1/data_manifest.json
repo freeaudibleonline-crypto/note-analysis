@@ -1,0 +1,744 @@
+{
+  "manifest_version": 1,
+  "historical_vintage_id": "historical_2026Q1",
+  "base_release_id": "2026Q1",
+  "publication_date": "2026-06-01",
+  "generated_at": "2026-08-25T13:44:07.911686+00:00",
+  "vintage_status": "CURRENT_VINTAGE_HISTORICAL_SERIES",
+  "historical_vintage_label": "current-vintage historical series",
+  "revision_robustness_status": "NOT_TESTED_NO_PRIOR_PUBLICATION_VINTAGES",
+  "revision_caveat": "This snapshot uses the history returned by e-Stat at acquisition time. No earlier publication vintages are available, so robustness to revisions has not been tested.",
+  "numeric_authority": "e-Stat table 1 DB-view structured JSON response",
+  "raw_mutation_policy": "immutable; refuse overwrite and verify every SHA-256",
+  "selection": {
+    "metrics": [
+      {
+        "metric_id": "sales",
+        "code": "078",
+        "source_name": "売上高(当期末)"
+      },
+      {
+        "metric_id": "operating_profit",
+        "code": "081",
+        "source_name": "営業利益(当期末)"
+      },
+      {
+        "metric_id": "ordinary_profit",
+        "code": "086",
+        "source_name": "経常利益(当期末)"
+      },
+      {
+        "metric_id": "capex_including_software",
+        "code": "040",
+        "source_name": "設備投資(当期末新設固定資産合計)"
+      },
+      {
+        "metric_id": "capex_excluding_software",
+        "code": "225",
+        "source_name": "ソフトウェアを除く設備投資(当期末新設固定資産)"
+      }
+    ],
+    "industries": [
+      {
+        "code": "104",
+        "name": "全産業（除く金融保険業）"
+      },
+      {
+        "code": "108",
+        "name": "製造業"
+      },
+      {
+        "code": "145",
+        "name": "情報通信機械器具製造業"
+      }
+    ],
+    "capital_sizes": [
+      {
+        "code": "26",
+        "name": "全規模"
+      },
+      {
+        "code": "25",
+        "name": "10億円以上"
+      },
+      {
+        "code": "19",
+        "name": "1千万円以上 - 1億円未満"
+      }
+    ],
+    "model_first_period_code": "19542",
+    "model_first_period_label": "1954年4 - 6 月",
+    "model_last_period_code": "20261",
+    "model_last_period_label": "2026年1 - 3 月",
+    "model_period_count": 288
+  },
+  "mechanical_availability": [
+    {
+      "series_id": "i104_c26_sales",
+      "industry_code": "104",
+      "industry_name": "全産業（除く金融保険業）",
+      "capital_size_code": "26",
+      "capital_size_name": "全規模",
+      "metric_id": "sales",
+      "source_first_present_period_code": "19542",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 288,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i104_c26_operating_profit",
+      "industry_code": "104",
+      "industry_name": "全産業（除く金融保険業）",
+      "capital_size_code": "26",
+      "capital_size_name": "全規模",
+      "metric_id": "operating_profit",
+      "source_first_present_period_code": "19542",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 288,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i104_c26_ordinary_profit",
+      "industry_code": "104",
+      "industry_name": "全産業（除く金融保険業）",
+      "capital_size_code": "26",
+      "capital_size_name": "全規模",
+      "metric_id": "ordinary_profit",
+      "source_first_present_period_code": "19542",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 288,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i104_c26_capex_including_software",
+      "industry_code": "104",
+      "industry_name": "全産業（除く金融保険業）",
+      "capital_size_code": "26",
+      "capital_size_name": "全規模",
+      "metric_id": "capex_including_software",
+      "source_first_present_period_code": "19542",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 288,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i104_c26_capex_excluding_software",
+      "industry_code": "104",
+      "industry_name": "全産業（除く金融保険業）",
+      "capital_size_code": "26",
+      "capital_size_name": "全規模",
+      "metric_id": "capex_excluding_software",
+      "source_first_present_period_code": "19542",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 288,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i104_c25_sales",
+      "industry_code": "104",
+      "industry_name": "全産業（除く金融保険業）",
+      "capital_size_code": "25",
+      "capital_size_name": "10億円以上",
+      "metric_id": "sales",
+      "source_first_present_period_code": "19593",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 267,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i104_c25_operating_profit",
+      "industry_code": "104",
+      "industry_name": "全産業（除く金融保険業）",
+      "capital_size_code": "25",
+      "capital_size_name": "10億円以上",
+      "metric_id": "operating_profit",
+      "source_first_present_period_code": "19593",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 267,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i104_c25_ordinary_profit",
+      "industry_code": "104",
+      "industry_name": "全産業（除く金融保険業）",
+      "capital_size_code": "25",
+      "capital_size_name": "10億円以上",
+      "metric_id": "ordinary_profit",
+      "source_first_present_period_code": "19593",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 267,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i104_c25_capex_including_software",
+      "industry_code": "104",
+      "industry_name": "全産業（除く金融保険業）",
+      "capital_size_code": "25",
+      "capital_size_name": "10億円以上",
+      "metric_id": "capex_including_software",
+      "source_first_present_period_code": "19593",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 267,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i104_c25_capex_excluding_software",
+      "industry_code": "104",
+      "industry_name": "全産業（除く金融保険業）",
+      "capital_size_code": "25",
+      "capital_size_name": "10億円以上",
+      "metric_id": "capex_excluding_software",
+      "source_first_present_period_code": "19593",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 267,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i104_c19_sales",
+      "industry_code": "104",
+      "industry_name": "全産業（除く金融保険業）",
+      "capital_size_code": "19",
+      "capital_size_name": "1千万円以上 - 1億円未満",
+      "metric_id": "sales",
+      "source_first_present_period_code": "19542",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 288,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i104_c19_operating_profit",
+      "industry_code": "104",
+      "industry_name": "全産業（除く金融保険業）",
+      "capital_size_code": "19",
+      "capital_size_name": "1千万円以上 - 1億円未満",
+      "metric_id": "operating_profit",
+      "source_first_present_period_code": "19542",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 288,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i104_c19_ordinary_profit",
+      "industry_code": "104",
+      "industry_name": "全産業（除く金融保険業）",
+      "capital_size_code": "19",
+      "capital_size_name": "1千万円以上 - 1億円未満",
+      "metric_id": "ordinary_profit",
+      "source_first_present_period_code": "19542",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 288,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i104_c19_capex_including_software",
+      "industry_code": "104",
+      "industry_name": "全産業（除く金融保険業）",
+      "capital_size_code": "19",
+      "capital_size_name": "1千万円以上 - 1億円未満",
+      "metric_id": "capex_including_software",
+      "source_first_present_period_code": "19542",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 288,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i104_c19_capex_excluding_software",
+      "industry_code": "104",
+      "industry_name": "全産業（除く金融保険業）",
+      "capital_size_code": "19",
+      "capital_size_name": "1千万円以上 - 1億円未満",
+      "metric_id": "capex_excluding_software",
+      "source_first_present_period_code": "19542",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 288,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i108_c26_sales",
+      "industry_code": "108",
+      "industry_name": "製造業",
+      "capital_size_code": "26",
+      "capital_size_name": "全規模",
+      "metric_id": "sales",
+      "source_first_present_period_code": "19542",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 288,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i108_c26_operating_profit",
+      "industry_code": "108",
+      "industry_name": "製造業",
+      "capital_size_code": "26",
+      "capital_size_name": "全規模",
+      "metric_id": "operating_profit",
+      "source_first_present_period_code": "19542",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 288,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i108_c26_ordinary_profit",
+      "industry_code": "108",
+      "industry_name": "製造業",
+      "capital_size_code": "26",
+      "capital_size_name": "全規模",
+      "metric_id": "ordinary_profit",
+      "source_first_present_period_code": "19542",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 288,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i108_c26_capex_including_software",
+      "industry_code": "108",
+      "industry_name": "製造業",
+      "capital_size_code": "26",
+      "capital_size_name": "全規模",
+      "metric_id": "capex_including_software",
+      "source_first_present_period_code": "19542",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 288,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i108_c26_capex_excluding_software",
+      "industry_code": "108",
+      "industry_name": "製造業",
+      "capital_size_code": "26",
+      "capital_size_name": "全規模",
+      "metric_id": "capex_excluding_software",
+      "source_first_present_period_code": "19542",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 288,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i108_c25_sales",
+      "industry_code": "108",
+      "industry_name": "製造業",
+      "capital_size_code": "25",
+      "capital_size_name": "10億円以上",
+      "metric_id": "sales",
+      "source_first_present_period_code": "19593",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 267,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i108_c25_operating_profit",
+      "industry_code": "108",
+      "industry_name": "製造業",
+      "capital_size_code": "25",
+      "capital_size_name": "10億円以上",
+      "metric_id": "operating_profit",
+      "source_first_present_period_code": "19593",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 267,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i108_c25_ordinary_profit",
+      "industry_code": "108",
+      "industry_name": "製造業",
+      "capital_size_code": "25",
+      "capital_size_name": "10億円以上",
+      "metric_id": "ordinary_profit",
+      "source_first_present_period_code": "19593",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 267,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i108_c25_capex_including_software",
+      "industry_code": "108",
+      "industry_name": "製造業",
+      "capital_size_code": "25",
+      "capital_size_name": "10億円以上",
+      "metric_id": "capex_including_software",
+      "source_first_present_period_code": "19593",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 267,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i108_c25_capex_excluding_software",
+      "industry_code": "108",
+      "industry_name": "製造業",
+      "capital_size_code": "25",
+      "capital_size_name": "10億円以上",
+      "metric_id": "capex_excluding_software",
+      "source_first_present_period_code": "19593",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 267,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i108_c19_sales",
+      "industry_code": "108",
+      "industry_name": "製造業",
+      "capital_size_code": "19",
+      "capital_size_name": "1千万円以上 - 1億円未満",
+      "metric_id": "sales",
+      "source_first_present_period_code": "19542",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 288,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i108_c19_operating_profit",
+      "industry_code": "108",
+      "industry_name": "製造業",
+      "capital_size_code": "19",
+      "capital_size_name": "1千万円以上 - 1億円未満",
+      "metric_id": "operating_profit",
+      "source_first_present_period_code": "19542",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 288,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i108_c19_ordinary_profit",
+      "industry_code": "108",
+      "industry_name": "製造業",
+      "capital_size_code": "19",
+      "capital_size_name": "1千万円以上 - 1億円未満",
+      "metric_id": "ordinary_profit",
+      "source_first_present_period_code": "19542",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 288,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i108_c19_capex_including_software",
+      "industry_code": "108",
+      "industry_name": "製造業",
+      "capital_size_code": "19",
+      "capital_size_name": "1千万円以上 - 1億円未満",
+      "metric_id": "capex_including_software",
+      "source_first_present_period_code": "19542",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 288,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i108_c19_capex_excluding_software",
+      "industry_code": "108",
+      "industry_name": "製造業",
+      "capital_size_code": "19",
+      "capital_size_name": "1千万円以上 - 1億円未満",
+      "metric_id": "capex_excluding_software",
+      "source_first_present_period_code": "19542",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 288,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i145_c26_sales",
+      "industry_code": "145",
+      "industry_name": "情報通信機械器具製造業",
+      "capital_size_code": "26",
+      "capital_size_name": "全規模",
+      "metric_id": "sales",
+      "source_first_present_period_code": "20042",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 88,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i145_c26_operating_profit",
+      "industry_code": "145",
+      "industry_name": "情報通信機械器具製造業",
+      "capital_size_code": "26",
+      "capital_size_name": "全規模",
+      "metric_id": "operating_profit",
+      "source_first_present_period_code": "20042",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 88,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i145_c26_ordinary_profit",
+      "industry_code": "145",
+      "industry_name": "情報通信機械器具製造業",
+      "capital_size_code": "26",
+      "capital_size_name": "全規模",
+      "metric_id": "ordinary_profit",
+      "source_first_present_period_code": "20042",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 88,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i145_c26_capex_including_software",
+      "industry_code": "145",
+      "industry_name": "情報通信機械器具製造業",
+      "capital_size_code": "26",
+      "capital_size_name": "全規模",
+      "metric_id": "capex_including_software",
+      "source_first_present_period_code": "20042",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 88,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i145_c26_capex_excluding_software",
+      "industry_code": "145",
+      "industry_name": "情報通信機械器具製造業",
+      "capital_size_code": "26",
+      "capital_size_name": "全規模",
+      "metric_id": "capex_excluding_software",
+      "source_first_present_period_code": "20042",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 88,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i145_c25_sales",
+      "industry_code": "145",
+      "industry_name": "情報通信機械器具製造業",
+      "capital_size_code": "25",
+      "capital_size_name": "10億円以上",
+      "metric_id": "sales",
+      "source_first_present_period_code": "20042",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 88,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i145_c25_operating_profit",
+      "industry_code": "145",
+      "industry_name": "情報通信機械器具製造業",
+      "capital_size_code": "25",
+      "capital_size_name": "10億円以上",
+      "metric_id": "operating_profit",
+      "source_first_present_period_code": "20042",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 88,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i145_c25_ordinary_profit",
+      "industry_code": "145",
+      "industry_name": "情報通信機械器具製造業",
+      "capital_size_code": "25",
+      "capital_size_name": "10億円以上",
+      "metric_id": "ordinary_profit",
+      "source_first_present_period_code": "20042",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 88,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i145_c25_capex_including_software",
+      "industry_code": "145",
+      "industry_name": "情報通信機械器具製造業",
+      "capital_size_code": "25",
+      "capital_size_name": "10億円以上",
+      "metric_id": "capex_including_software",
+      "source_first_present_period_code": "20042",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 88,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i145_c25_capex_excluding_software",
+      "industry_code": "145",
+      "industry_name": "情報通信機械器具製造業",
+      "capital_size_code": "25",
+      "capital_size_name": "10億円以上",
+      "metric_id": "capex_excluding_software",
+      "source_first_present_period_code": "20042",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 88,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i145_c19_sales",
+      "industry_code": "145",
+      "industry_name": "情報通信機械器具製造業",
+      "capital_size_code": "19",
+      "capital_size_name": "1千万円以上 - 1億円未満",
+      "metric_id": "sales",
+      "source_first_present_period_code": "20042",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 88,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i145_c19_operating_profit",
+      "industry_code": "145",
+      "industry_name": "情報通信機械器具製造業",
+      "capital_size_code": "19",
+      "capital_size_name": "1千万円以上 - 1億円未満",
+      "metric_id": "operating_profit",
+      "source_first_present_period_code": "20042",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 88,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i145_c19_ordinary_profit",
+      "industry_code": "145",
+      "industry_name": "情報通信機械器具製造業",
+      "capital_size_code": "19",
+      "capital_size_name": "1千万円以上 - 1億円未満",
+      "metric_id": "ordinary_profit",
+      "source_first_present_period_code": "20042",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 88,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i145_c19_capex_including_software",
+      "industry_code": "145",
+      "industry_name": "情報通信機械器具製造業",
+      "capital_size_code": "19",
+      "capital_size_name": "1千万円以上 - 1億円未満",
+      "metric_id": "capex_including_software",
+      "source_first_present_period_code": "20042",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 88,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    },
+    {
+      "series_id": "i145_c19_capex_excluding_software",
+      "industry_code": "145",
+      "industry_name": "情報通信機械器具製造業",
+      "capital_size_code": "19",
+      "capital_size_name": "1千万円以上 - 1億円未満",
+      "metric_id": "capex_excluding_software",
+      "source_first_present_period_code": "20042",
+      "source_last_present_period_code": "20261",
+      "present_quarter_count": 88,
+      "internal_missing_count": 0,
+      "internal_missing_period_codes": []
+    }
+  ],
+  "software_capex_comparable_start_period_code": "20013",
+  "quality_log": [
+    {
+      "kind": "CAPEX_SOFTWARE_DEFINITION_START",
+      "severity": "INFO",
+      "period_code": "20013",
+      "detail": "The including and excluding capex columns first differ in the all-industry/all-capital source cell; earlier identical columns are not interpreted as measured zero software investment."
+    }
+  ],
+  "classification_policy": {
+    "selected_codes_names_must_match_current_model": true,
+    "legacy_model_industries_excluded_from_selected_series": [
+      {
+        "code": "163",
+        "name": "繊維工業(H20年度まで)"
+      },
+      {
+        "code": "111",
+        "name": "衣服・その他の繊維製品製造業(H20年度まで)"
+      },
+      {
+        "code": "162",
+        "name": "農業(H20年度まで)"
+      },
+      {
+        "code": "102",
+        "name": "林業(H20年度まで)"
+      }
+    ],
+    "silent_splicing": "forbidden"
+  },
+  "sample_replacement_notice": "Quarter code 2 (April-June) is marked as the annual sample-replacement quarter in the analytical panel; raw quarter-on-quarter comparisons are not used for the registered tests.",
+  "sources": [
+    {
+      "source_id": "historical_table1_model",
+      "role": "dimension_and_table_metadata",
+      "provider": "e-Stat",
+      "table_number": "1",
+      "estat_sid": "0003060191",
+      "url": "https://www.e-stat.go.jp/dbview/api_get_model?sid=0003060191",
+      "http_method": "POST",
+      "retrieved_at": "2026-08-25T13:43:54.497413+00:00",
+      "raw_path": "data/raw/historical_2026Q1/historical_table1_model.json",
+      "sha256": "0c05a58644a11d0395d17770f3c9b1964713a72df3359245c58d9802dd49b41c",
+      "bytes": 145063,
+      "content_type": "application/json",
+      "coverage_scope": "EXCL_FINANCE_INSURANCE",
+      "seasonal_adjustment": "RAW"
+    },
+    {
+      "source_id": "historical_table1_query",
+      "role": "exact_request_metadata",
+      "provider": "e-Stat",
+      "table_number": "1",
+      "estat_sid": "0003060191",
+      "url": "https://www.e-stat.go.jp/dbview/api_get_result?sid=0003060191",
+      "http_method": "POST",
+      "retrieved_at": "2026-08-25T13:43:54.499374+00:00",
+      "raw_path": "data/raw/historical_2026Q1/historical_table1_query.json",
+      "sha256": "83a92e3fb85cda7468568a7cad608df830fa313dc278e21454d4d9804645b8f2",
+      "bytes": 147486,
+      "content_type": "application/json",
+      "coverage_scope": "EXCL_FINANCE_INSURANCE",
+      "seasonal_adjustment": "RAW"
+    },
+    {
+      "source_id": "historical_table1_values",
+      "role": "numeric_authority",
+      "provider": "e-Stat",
+      "table_number": "1",
+      "estat_sid": "0003060191",
+      "url": "https://www.e-stat.go.jp/dbview/api_get_result?sid=0003060191",
+      "http_method": "POST",
+      "retrieved_at": "2026-08-25T13:44:06.917922+00:00",
+      "raw_path": "data/raw/historical_2026Q1/historical_table1_values.json",
+      "sha256": "123dac2b70dc1ffb6714c08dda15179aeeff300f71b31d3d1a8cc552a8c2e817",
+      "bytes": 1811654,
+      "content_type": "application/json",
+      "coverage_scope": "EXCL_FINANCE_INSURANCE",
+      "seasonal_adjustment": "RAW"
+    }
+  ]
+}

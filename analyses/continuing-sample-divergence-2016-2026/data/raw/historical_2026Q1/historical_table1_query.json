@@ -1,0 +1,6057 @@
+{
+  "query_schema_version": 1,
+  "historical_vintage_id": "historical_2026Q1",
+  "vintage_status": "CURRENT_VINTAGE_HISTORICAL_SERIES",
+  "revision_robustness_status": "NOT_TESTED_NO_PRIOR_PUBLICATION_VINTAGES",
+  "request": {
+    "http_method": "POST",
+    "url": "https://www.e-stat.go.jp/dbview/api_get_result?sid=0003060191",
+    "form_payload": {
+      "rows": "H4sIAAAAAAAC/6XcX4uV5xWG8a8i+1jhXevZ77PW8rCkEA/0REspIYRpnIOB8Q91hIIIhmiSBkIo9MSSthprsYFACoVa2+KH6czUOepXyN4dqkPnuZt9kTPde7/37HUh+Duad+4srm3t7W3/7MLVxfnl2cXe1k93ty9tXdtenF9cfPu9H/woLlz48XvTNNlkvXK5OLu4unPr5pUTH7v834+0qU9Wtnro0uSrD968cWtnb+fG9Uu3r60+ZqtXdndu7b21tbe1OP/OncX148cPHjz716+eHD79+t9//+To4e//+cHnRx//8tVvP9t/+Zujhy/+8/ovVo++f+Pq+tM2rb/C7es7e6u/rP60/fObu1vXt9Y/Zv3C3bOvd189+cfRvUer508+nBs+fPjhg4NHfzq69+v9l48P//i7wy+/OXj47ODBX0ajy/n/jr57drG1u3t5e3f7/b3tVeRp/WPeNJ+/s/m8afN2qrnr5q/+8Pnhs8dvzvC+YRqbDu7fP/joo/2/Pd1//umJgXnTgYPPPtx//vHriTPnztjx5OEXXx2+uHcibX2fsn6q7JWLP3mTdvJ5s3/OVy5c/OGpsk2UtZqXB3/983J1VD9z+MUnJ4+Zl75pouOVWK3U6ZXGVmw6Z35qZLn5yLweWX2VduqrzMZWxllmZyvjLHODF42yzCBLl1m6sZVxlu5sZZylN3jRKEsHWUJmCWMr4yzhbGWcJRq8aJQlQJaUWdLYyjhLOlsZZ8kGLxplSZClZJYytjLOUs5WxlmqwYtGWWrzLH1SWVb/JbGVYZY+OVsZZulTgxcNsvQJZDGZxYytjLOYs5VxFmvwolEWA1lcZnFjK+Ms7mxlnMUbvGiUxUGWJrM0YyvjLM3ZyjhLa/CiUZYGsixllqWxlXEWoNwulduBcrtSbgfK7VK5HSi3S+V2oNwulduBcrtSbgfK7VK5HSi3S+V2oNwulduBcrtSbgfK7VK5HSi3S+V2oNwulduBcrtSbgfK7VK5HSi3S+V2oNwulduBcrtSbgfK7VK5HSi3S+V2oNwulduBcrtSbgfKDancAMoNqdwAyg2p3ADKDaXcAMoNqdwAyg2p3ADKDancAMoNpdwAyg2p3ADKDancAMoNqdwAyg2l3ADKDancAMoNqdwAyg2p3ADKDaXcAMoNqdwAyg2p3ADKDancAMoNpdwAyg2p3ADKDancAMoNqdwAyg2l3ADKDancAMoNqdwAyg2p3ADKDaXcAMoNqdwAyg2p3ADKDancAMoNpdwAyg2p3ADKDancAMoNqdwAyg2l3ADKDancAMoNqdwAyg2p3ADKDaXcAMpNqdwEyk2p3ATKTancBMpNpdwEyk2p3ATKTancBMpNqdwEyk2l3ATKTancBMpNqdwEyk2p3ATKTaXcBMpNqdwEyk2p3ATKTancBMpNpdwEyk2p3ATKTancBMpNqdwEyk2l3ATKTancBMpNqdwEyk2p3ATKTaXcBMpNqdwEyk2p3ATKTancBMpNpdwEyk2p3ATKTancBMpNqdwEyk2l3ATKTancBMpNqdwEyk2p3ATKTaXcBMpNqdwEyk2p3ATKTancBMpNpdwEyi2p3ALKLancAsotqdwCyi2l3ALKLancAsotqdwCyi2p3ALKLaXcAsotqdwCyi2p3ALKLancAsotpdwCyi2p3ALKLancAsotqdwCyi2l3ALKLancAsotqdwCyi2p3ALKLaXcAsotqdwCyi2p3ALKLancAsotpdwCyi2p3ALKLancAsotqdwCyi2l3ALKLancAsotqdwCyi2p3ALKLaXcAsotqdwCyi2p3ALKLancAsotpdwCyi2p3ALKLancAsotqdwCyi2l3NpYuT5NQrnrd4ytDLKs33G2MsiyfqfBi05lWb8BspjMYsZWxlnM2co4izV40SiLgSwus7ixlXEWd7YyzuINXjTK4iBLk1masZVxluZsZZylNXjRKEsDWZYyy9LYyjjL0tnKOMuywYtGWZYgyyyzzMZWxllmZyvjLHODF42yzCBLl1m6sZVxlu5sZZylN3jRKEsHWUJmCWMr4yzhbGWcJRq8aJQlQJaUWdLYyjhLOlsZZ8kGLxplSZClZJYytjLOUs5WxlmqwYtGWYByTSrXgHJNKteAck0q14ByTSnXgHJNKteAck0q14ByTSrXgHJNKdeAck0q14ByTSrXgHJNKteAck0p14ByTSrXgHJNKteAck0q14ByTSnXgHJNKteAck0q14ByTSrXgHJNKdeAck0q14ByTSrXgHJNKteAck0p14ByTSrXgHJNKteAck0q14ByTSnXgHJNKteAck0q14ByTSrXgHJNKdeAck0q14ByTSrXgHJNKteAck0p14ByTSrXgHJNKteAck0q14ByTSnXgHJdKteBcl0q14FyXSrXgXJdKdeBcl0q14FyXSrXgXJdKteBco8vmta/ZspP74AyEroOoOsSug6g6xK6DqB7fJEoA6zr0roOrOvSug6s69K6Dqx7fJEoA7jrkrsOuOuSuw6465K7Drh7fJEoA8TrUrwOxOtSvA7E61K8DsR7fJEoA9DrEr3+Hej931+IZ3ff/RZrOJCI4FEAAA==",
+      "cols": "H4sIAAAAAAAC/4uuVspNLClJLfJMUbIy1lEqSUzKSfVLzE1VslLy9Yh3CjX39AyPNzAwMDQwNLO0MFPSUUrJLC4IQVIWDFNibGBmYGhpCNTkZ2AIVFiQX5xZkpmf51eaC1QGEsnJLC5xSSxJVLKKrlbKg2h/unjTkx1dL1fP0Hi6d/KzOfOfzVmtCVSanJ8CkjUwtwBySvMyS4Cc5zP3PdnR/rStDSiUWlGQk5iXCDIfKKNUq4MwcNq2Z0vXPu1Y+Xx2F3YzLQxJNfP51p6nO3bgNdOMVDNfrFj7tGnms66pLza3I8x8Nm0DSGL2rqfrZgElnk9Z/HRCx4sVHch2mRiQatfjpr2Pm6c+bu543LTscdPyx02LHjdNejlzyePGfmKdgeQAIyNT4hwQq6OUmJMTnJqTmlySCkxgBrWxAAgPT9pxAgAA",
+      "tops": "H4sIAAAAAAAC/4uOBQApu0wNAgAAAA==",
+      "apiTops": "H4sIAAAAAAAC/4uOBQApu0wNAgAAAA==",
+      "annotationFlg": 1,
+      "rowNoDataDispFlg": 0,
+      "colNoDataDispFlg": 0,
+      "commaType": 0,
+      "replaceSpChars": 0,
+      "graphAxis": "horizontal",
+      "graphBasis": "head",
+      "graphSort": "asc",
+      "graphTitle": "",
+      "graphType": "barChart",
+      "inputNumberOfCols": 100,
+      "inputNumberOfRows": 100000,
+      "movementId": 0,
+      "leftMoveFlg": 0,
+      "rightMoveFlg": 0,
+      "underMoveFlg": 0,
+      "upMoveFlg": 0,
+      "currentCols": null,
+      "currentRows": null,
+      "mode": "table"
+    }
+  },
+  "query": {
+    "rows": [
+      {
+        "matterId": 4,
+        "tableName": "MH_BU7IIW_0001016984",
+        "dispTableName": "S7IIW_0003060191_BUN02",
+        "positionNum": "1",
+        "listData": [
+          {
+            "name": "全産業（除く金融保険業）",
+            "code": "104",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "製造業",
+            "code": "108",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "情報通信機械器具製造業",
+            "code": "145",
+            "unit": "",
+            "explanation": ""
+          }
+        ],
+        "allSelected": 0
+      },
+      {
+        "matterId": 5,
+        "tableName": "MH_BU7IIW_0001016985",
+        "dispTableName": "S7IIW_0003060191_BUN03",
+        "positionNum": "2",
+        "listData": [
+          {
+            "name": "全規模",
+            "code": "26",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "10億円以上",
+            "code": "25",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1千万円以上 - 1億円未満",
+            "code": "19",
+            "unit": "",
+            "explanation": ""
+          }
+        ],
+        "allSelected": 0
+      },
+      {
+        "matterId": 2,
+        "tableName": "MH_TMY7IIW_0001002584",
+        "dispTableName": "S7IIW_0003060191_TIME",
+        "positionNum": "3",
+        "listData": [
+          {
+            "name": "1954年4 - 6 月",
+            "code": "19542",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1954年7 - 9 月",
+            "code": "19543",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1954年10-12月",
+            "code": "19544",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1955年1 - 3 月",
+            "code": "19551",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1955年4 - 6 月",
+            "code": "19552",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1955年7 - 9 月",
+            "code": "19553",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1955年10-12月",
+            "code": "19554",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1956年1 - 3 月",
+            "code": "19561",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1956年4 - 6 月",
+            "code": "19562",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1956年7 - 9 月",
+            "code": "19563",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1956年10-12月",
+            "code": "19564",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1957年1 - 3 月",
+            "code": "19571",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1957年4 - 6 月",
+            "code": "19572",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1957年7 - 9 月",
+            "code": "19573",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1957年10-12月",
+            "code": "19574",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1958年1 - 3 月",
+            "code": "19581",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1958年4 - 6 月",
+            "code": "19582",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1958年7 - 9 月",
+            "code": "19583",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1958年10-12月",
+            "code": "19584",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1959年1 - 3 月",
+            "code": "19591",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1959年4 - 6 月",
+            "code": "19592",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1959年7 - 9 月",
+            "code": "19593",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1959年10-12月",
+            "code": "19594",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1960年1 - 3 月",
+            "code": "19601",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1960年4 - 6 月",
+            "code": "19602",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1960年7 - 9 月",
+            "code": "19603",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1960年10-12月",
+            "code": "19604",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1961年1 - 3 月",
+            "code": "19611",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1961年4 - 6 月",
+            "code": "19612",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1961年7 - 9 月",
+            "code": "19613",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1961年10-12月",
+            "code": "19614",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1962年1 - 3 月",
+            "code": "19621",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1962年4 - 6 月",
+            "code": "19622",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1962年7 - 9 月",
+            "code": "19623",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1962年10-12月",
+            "code": "19624",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1963年1 - 3 月",
+            "code": "19631",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1963年4 - 6 月",
+            "code": "19632",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1963年7 - 9 月",
+            "code": "19633",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1963年10-12月",
+            "code": "19634",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1964年1 - 3 月",
+            "code": "19641",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1964年4 - 6 月",
+            "code": "19642",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1964年7 - 9 月",
+            "code": "19643",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1964年10-12月",
+            "code": "19644",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1965年1 - 3 月",
+            "code": "19651",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1965年4 - 6 月",
+            "code": "19652",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1965年7 - 9 月",
+            "code": "19653",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1965年10-12月",
+            "code": "19654",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1966年1 - 3 月",
+            "code": "19661",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1966年4 - 6 月",
+            "code": "19662",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1966年7 - 9 月",
+            "code": "19663",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1966年10-12月",
+            "code": "19664",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1967年1 - 3 月",
+            "code": "19671",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1967年4 - 6 月",
+            "code": "19672",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1967年7 - 9 月",
+            "code": "19673",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1967年10-12月",
+            "code": "19674",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1968年1 - 3 月",
+            "code": "19681",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1968年4 - 6 月",
+            "code": "19682",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1968年7 - 9 月",
+            "code": "19683",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1968年10-12月",
+            "code": "19684",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1969年1 - 3 月",
+            "code": "19691",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1969年4 - 6 月",
+            "code": "19692",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1969年7 - 9 月",
+            "code": "19693",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1969年10-12月",
+            "code": "19694",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1970年1 - 3 月",
+            "code": "19701",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1970年4 - 6 月",
+            "code": "19702",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1970年7 - 9 月",
+            "code": "19703",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1970年10-12月",
+            "code": "19704",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1971年1 - 3 月",
+            "code": "19711",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1971年4 - 6 月",
+            "code": "19712",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1971年7 - 9 月",
+            "code": "19713",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1971年10-12月",
+            "code": "19714",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1972年1 - 3 月",
+            "code": "19721",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1972年4 - 6 月",
+            "code": "19722",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1972年7 - 9 月",
+            "code": "19723",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1972年10-12月",
+            "code": "19724",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1973年1 - 3 月",
+            "code": "19731",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1973年4 - 6 月",
+            "code": "19732",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1973年7 - 9 月",
+            "code": "19733",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1973年10-12月",
+            "code": "19734",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1974年1 - 3 月",
+            "code": "19741",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1974年4 - 6 月",
+            "code": "19742",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1974年7 - 9 月",
+            "code": "19743",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1974年10-12月",
+            "code": "19744",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1975年1 - 3 月",
+            "code": "19751",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1975年4 - 6 月",
+            "code": "19752",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1975年7 - 9 月",
+            "code": "19753",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1975年10-12月",
+            "code": "19754",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1976年1 - 3 月",
+            "code": "19761",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1976年4 - 6 月",
+            "code": "19762",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1976年7 - 9 月",
+            "code": "19763",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1976年10-12月",
+            "code": "19764",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1977年1 - 3 月",
+            "code": "19771",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1977年4 - 6 月",
+            "code": "19772",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1977年7 - 9 月",
+            "code": "19773",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1977年10-12月",
+            "code": "19774",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1978年1 - 3 月",
+            "code": "19781",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1978年4 - 6 月",
+            "code": "19782",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1978年7 - 9 月",
+            "code": "19783",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1978年10-12月",
+            "code": "19784",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1979年1 - 3 月",
+            "code": "19791",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1979年4 - 6 月",
+            "code": "19792",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1979年7 - 9 月",
+            "code": "19793",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1979年10-12月",
+            "code": "19794",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1980年1 - 3 月",
+            "code": "19801",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1980年4 - 6 月",
+            "code": "19802",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1980年7 - 9 月",
+            "code": "19803",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1980年10-12月",
+            "code": "19804",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1981年1 - 3 月",
+            "code": "19811",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1981年4 - 6 月",
+            "code": "19812",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1981年7 - 9 月",
+            "code": "19813",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1981年10-12月",
+            "code": "19814",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1982年1 - 3 月",
+            "code": "19821",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1982年4 - 6 月",
+            "code": "19822",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1982年7 - 9 月",
+            "code": "19823",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1982年10-12月",
+            "code": "19824",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1983年1 - 3 月",
+            "code": "19831",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1983年4 - 6 月",
+            "code": "19832",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1983年7 - 9 月",
+            "code": "19833",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1983年10-12月",
+            "code": "19834",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1984年1 - 3 月",
+            "code": "19841",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1984年4 - 6 月",
+            "code": "19842",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1984年7 - 9 月",
+            "code": "19843",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1984年10-12月",
+            "code": "19844",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1985年1 - 3 月",
+            "code": "19851",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1985年4 - 6 月",
+            "code": "19852",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1985年7 - 9 月",
+            "code": "19853",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1985年10-12月",
+            "code": "19854",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1986年1 - 3 月",
+            "code": "19861",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1986年4 - 6 月",
+            "code": "19862",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1986年7 - 9 月",
+            "code": "19863",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1986年10-12月",
+            "code": "19864",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1987年1 - 3 月",
+            "code": "19871",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1987年4 - 6 月",
+            "code": "19872",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1987年7 - 9 月",
+            "code": "19873",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1987年10-12月",
+            "code": "19874",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1988年1 - 3 月",
+            "code": "19881",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1988年4 - 6 月",
+            "code": "19882",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1988年7 - 9 月",
+            "code": "19883",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1988年10-12月",
+            "code": "19884",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1989年1 - 3 月",
+            "code": "19891",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1989年4 - 6 月",
+            "code": "19892",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1989年7 - 9 月",
+            "code": "19893",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1989年10-12月",
+            "code": "19894",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1990年1 - 3 月",
+            "code": "19901",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1990年4 - 6 月",
+            "code": "19902",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1990年7 - 9 月",
+            "code": "19903",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1990年10-12月",
+            "code": "19904",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1991年1 - 3 月",
+            "code": "19911",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1991年4 - 6 月",
+            "code": "19912",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1991年7 - 9 月",
+            "code": "19913",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1991年10-12月",
+            "code": "19914",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1992年1 - 3 月",
+            "code": "19921",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1992年4 - 6 月",
+            "code": "19922",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1992年7 - 9 月",
+            "code": "19923",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1992年10-12月",
+            "code": "19924",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1993年1 - 3 月",
+            "code": "19931",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1993年4 - 6 月",
+            "code": "19932",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1993年7 - 9 月",
+            "code": "19933",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1993年10-12月",
+            "code": "19934",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1994年1 - 3 月",
+            "code": "19941",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1994年4 - 6 月",
+            "code": "19942",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1994年7 - 9 月",
+            "code": "19943",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1994年10-12月",
+            "code": "19944",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1995年1 - 3 月",
+            "code": "19951",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1995年4 - 6 月",
+            "code": "19952",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1995年7 - 9 月",
+            "code": "19953",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1995年10-12月",
+            "code": "19954",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1996年1 - 3 月",
+            "code": "19961",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1996年4 - 6 月",
+            "code": "19962",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1996年7 - 9 月",
+            "code": "19963",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1996年10-12月",
+            "code": "19964",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1997年1 - 3 月",
+            "code": "19971",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1997年4 - 6 月",
+            "code": "19972",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1997年7 - 9 月",
+            "code": "19973",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1997年10-12月",
+            "code": "19974",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1998年1 - 3 月",
+            "code": "19981",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1998年4 - 6 月",
+            "code": "19982",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1998年7 - 9 月",
+            "code": "19983",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1998年10-12月",
+            "code": "19984",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1999年1 - 3 月",
+            "code": "19991",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1999年4 - 6 月",
+            "code": "19992",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1999年7 - 9 月",
+            "code": "19993",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "1999年10-12月",
+            "code": "19994",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2000年1 - 3 月",
+            "code": "20001",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2000年4 - 6 月",
+            "code": "20002",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2000年7 - 9 月",
+            "code": "20003",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2000年10-12月",
+            "code": "20004",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2001年1 - 3 月",
+            "code": "20011",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2001年4 - 6 月",
+            "code": "20012",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2001年7 - 9 月",
+            "code": "20013",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2001年10-12月",
+            "code": "20014",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2002年1 - 3 月",
+            "code": "20021",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2002年4 - 6 月",
+            "code": "20022",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2002年7 - 9 月",
+            "code": "20023",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2002年10-12月",
+            "code": "20024",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2003年1 - 3 月",
+            "code": "20031",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2003年4 - 6 月",
+            "code": "20032",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2003年7 - 9 月",
+            "code": "20033",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2003年10-12月",
+            "code": "20034",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2004年1 - 3 月",
+            "code": "20041",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2004年4 - 6 月",
+            "code": "20042",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2004年7 - 9 月",
+            "code": "20043",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2004年10-12月",
+            "code": "20044",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2005年1 - 3 月",
+            "code": "20051",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2005年4 - 6 月",
+            "code": "20052",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2005年7 - 9 月",
+            "code": "20053",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2005年10-12月",
+            "code": "20054",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2006年1 - 3 月",
+            "code": "20061",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2006年4 - 6 月",
+            "code": "20062",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2006年7 - 9 月",
+            "code": "20063",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2006年10-12月",
+            "code": "20064",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2007年1 - 3 月",
+            "code": "20071",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2007年4 - 6 月",
+            "code": "20072",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2007年7 - 9 月",
+            "code": "20073",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2007年10-12月",
+            "code": "20074",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2008年1 - 3 月",
+            "code": "20081",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2008年4 - 6 月",
+            "code": "20082",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2008年7 - 9 月",
+            "code": "20083",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2008年10-12月",
+            "code": "20084",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2009年1 - 3 月",
+            "code": "20091",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2009年4 - 6 月",
+            "code": "20092",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2009年7 - 9 月",
+            "code": "20093",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2009年10-12月",
+            "code": "20094",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2010年1 - 3 月",
+            "code": "20101",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2010年4 - 6 月",
+            "code": "20102",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2010年7 - 9 月",
+            "code": "20103",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2010年10-12月",
+            "code": "20104",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2011年1 - 3 月",
+            "code": "20111",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2011年4 - 6 月",
+            "code": "20112",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2011年7 - 9 月",
+            "code": "20113",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2011年10-12月",
+            "code": "20114",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2012年1 - 3 月",
+            "code": "20121",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2012年4 - 6 月",
+            "code": "20122",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2012年7 - 9 月",
+            "code": "20123",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2012年10-12月",
+            "code": "20124",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2013年1 - 3 月",
+            "code": "20131",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2013年4 - 6 月",
+            "code": "20132",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2013年7 - 9 月",
+            "code": "20133",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2013年10-12月",
+            "code": "20134",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2014年1 - 3 月",
+            "code": "20141",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2014年4 - 6 月",
+            "code": "20142",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2014年7 - 9 月",
+            "code": "20143",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2014年10-12月",
+            "code": "20144",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2015年1 - 3 月",
+            "code": "20151",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2015年4 - 6 月",
+            "code": "20152",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2015年7 - 9 月",
+            "code": "20153",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2015年10-12月",
+            "code": "20154",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2016年1 - 3 月",
+            "code": "20161",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2016年4 - 6 月",
+            "code": "20162",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2016年7 - 9 月",
+            "code": "20163",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2016年10-12月",
+            "code": "20164",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2017年1 - 3 月",
+            "code": "20171",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2017年4 - 6 月",
+            "code": "20172",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2017年7 - 9 月",
+            "code": "20173",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2017年10-12月",
+            "code": "20174",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2018年1 - 3 月",
+            "code": "20181",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2018年4 - 6 月",
+            "code": "20182",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2018年7 - 9 月",
+            "code": "20183",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2018年10-12月",
+            "code": "20184",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2019年1 - 3 月",
+            "code": "20191",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2019年4 - 6 月",
+            "code": "20192",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2019年7 - 9 月",
+            "code": "20193",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2019年10-12月",
+            "code": "20194",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2020年1 - 3 月",
+            "code": "20201",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2020年4 - 6 月",
+            "code": "20202",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2020年7 - 9 月",
+            "code": "20203",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2020年10-12月",
+            "code": "20204",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2021年1 - 3 月",
+            "code": "20211",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2021年4 - 6 月",
+            "code": "20212",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2021年7 - 9 月",
+            "code": "20213",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2021年10 - 12 月",
+            "code": "20214",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2022年1 - 3 月",
+            "code": "20221",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2022年4 - 6 月",
+            "code": "20222",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2022年7 - 9 月",
+            "code": "20223",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2022年10 - 12 月",
+            "code": "20224",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2023年1 - 3 月",
+            "code": "20231",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2023年4 - 6 月",
+            "code": "20232",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2023年7 - 9 月",
+            "code": "20233",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2023年10 - 12 月",
+            "code": "20234",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2024年1 - 3 月",
+            "code": "20241",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2024年4 - 6 月",
+            "code": "20242",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2024年7 - 9 月",
+            "code": "20243",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2024年10 - 12 月",
+            "code": "20244",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2025年1 - 3 月",
+            "code": "20251",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2025年4 - 6 月",
+            "code": "20252",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2025年7 - 9 月",
+            "code": "20253",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2025年10 - 12 月",
+            "code": "20254",
+            "unit": "",
+            "explanation": ""
+          },
+          {
+            "name": "2026年1 - 3 月",
+            "code": "20261",
+            "unit": "",
+            "explanation": ""
+          }
+        ],
+        "allSelected": 1
+      }
+    ],
+    "cols": [
+      {
+        "matterId": 3,
+        "tableName": "MH_BU7IIW_0001016986",
+        "dispTableName": "S7IIW_0003060191_BUN01",
+        "positionNum": "1",
+        "listData": [
+          {
+            "name": "売上高(当期末)",
+            "code": "078",
+            "unit": "百万円",
+            "explanation": ""
+          },
+          {
+            "name": "営業利益(当期末)",
+            "code": "081",
+            "unit": "百万円",
+            "explanation": ""
+          },
+          {
+            "name": "経常利益(当期末)",
+            "code": "086",
+            "unit": "百万円",
+            "explanation": ""
+          },
+          {
+            "name": "設備投資(当期末新設固定資産合計)",
+            "code": "040",
+            "unit": "百万円",
+            "explanation": ""
+          },
+          {
+            "name": "ソフトウェアを除く設備投資(当期末新設固定資産)",
+            "code": "225",
+            "unit": "百万円",
+            "explanation": ""
+          }
+        ],
+        "allSelected": 0
+      }
+    ],
+    "tops": [],
+    "apiTops": [],
+    "annotationFlg": 1,
+    "rowNoDataDispFlg": 0,
+    "colNoDataDispFlg": 0,
+    "commaType": 0,
+    "replaceSpChars": 0,
+    "graphAxis": "horizontal",
+    "graphBasis": "head",
+    "graphSort": "asc",
+    "graphTitle": "",
+    "graphType": "barChart",
+    "inputNumberOfCols": 100,
+    "inputNumberOfRows": 100000,
+    "movementId": 0,
+    "leftMoveFlg": 0,
+    "rightMoveFlg": 0,
+    "underMoveFlg": 0,
+    "upMoveFlg": 0,
+    "currentCols": null,
+    "currentRows": null,
+    "mode": "table"
+  },
+  "dimension_keys": {
+    "metric": "matter3",
+    "industry": "matter4",
+    "capital": "matter5",
+    "time": "matter2"
+  },
+  "dimension_spec": {
+    "industry": [
+      {
+        "code": "104",
+        "name": "全産業（除く金融保険業）",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 1,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "108",
+        "name": "製造業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 2,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "145",
+        "name": "情報通信機械器具製造業",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 20,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      }
+    ],
+    "capital": [
+      {
+        "code": "26",
+        "name": "全規模",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 1,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "25",
+        "name": "10億円以上",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 2,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19",
+        "name": "1千万円以上 - 1億円未満",
+        "kana": "",
+        "classLevel": 1,
+        "parentCode": "",
+        "seqNo": 4,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      }
+    ],
+    "time": [
+      {
+        "code": "19542",
+        "name": "1954年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 10,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19543",
+        "name": "1954年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 20,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19544",
+        "name": "1954年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 30,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19551",
+        "name": "1955年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 40,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19552",
+        "name": "1955年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 50,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19553",
+        "name": "1955年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 60,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19554",
+        "name": "1955年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 70,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19561",
+        "name": "1956年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 80,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19562",
+        "name": "1956年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 90,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19563",
+        "name": "1956年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 100,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19564",
+        "name": "1956年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 110,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19571",
+        "name": "1957年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 120,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19572",
+        "name": "1957年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 130,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19573",
+        "name": "1957年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 140,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19574",
+        "name": "1957年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 150,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19581",
+        "name": "1958年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 160,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19582",
+        "name": "1958年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 170,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19583",
+        "name": "1958年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 180,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19584",
+        "name": "1958年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 190,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19591",
+        "name": "1959年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 200,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19592",
+        "name": "1959年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 210,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19593",
+        "name": "1959年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 220,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19594",
+        "name": "1959年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 230,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19601",
+        "name": "1960年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 240,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19602",
+        "name": "1960年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 250,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19603",
+        "name": "1960年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 260,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19604",
+        "name": "1960年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 270,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19611",
+        "name": "1961年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 280,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19612",
+        "name": "1961年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 290,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19613",
+        "name": "1961年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 300,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19614",
+        "name": "1961年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 310,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19621",
+        "name": "1962年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 320,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19622",
+        "name": "1962年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 330,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19623",
+        "name": "1962年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 340,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19624",
+        "name": "1962年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 350,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19631",
+        "name": "1963年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 360,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19632",
+        "name": "1963年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 370,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19633",
+        "name": "1963年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 380,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19634",
+        "name": "1963年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 390,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19641",
+        "name": "1964年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 400,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19642",
+        "name": "1964年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 410,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19643",
+        "name": "1964年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 420,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19644",
+        "name": "1964年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 430,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19651",
+        "name": "1965年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 440,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19652",
+        "name": "1965年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 450,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19653",
+        "name": "1965年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 460,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19654",
+        "name": "1965年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 470,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19661",
+        "name": "1966年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 480,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19662",
+        "name": "1966年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 490,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19663",
+        "name": "1966年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 500,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19664",
+        "name": "1966年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 510,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19671",
+        "name": "1967年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 520,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19672",
+        "name": "1967年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 530,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19673",
+        "name": "1967年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 540,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19674",
+        "name": "1967年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 550,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19681",
+        "name": "1968年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 560,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19682",
+        "name": "1968年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 570,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19683",
+        "name": "1968年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 580,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19684",
+        "name": "1968年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 590,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19691",
+        "name": "1969年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 600,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19692",
+        "name": "1969年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 610,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19693",
+        "name": "1969年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 620,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19694",
+        "name": "1969年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 630,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19701",
+        "name": "1970年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 640,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19702",
+        "name": "1970年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 650,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19703",
+        "name": "1970年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 660,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19704",
+        "name": "1970年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 670,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19711",
+        "name": "1971年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 680,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19712",
+        "name": "1971年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 690,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19713",
+        "name": "1971年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 700,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19714",
+        "name": "1971年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 710,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19721",
+        "name": "1972年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 720,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19722",
+        "name": "1972年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 730,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19723",
+        "name": "1972年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 740,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19724",
+        "name": "1972年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 750,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19731",
+        "name": "1973年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 760,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19732",
+        "name": "1973年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 770,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19733",
+        "name": "1973年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 780,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19734",
+        "name": "1973年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 790,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19741",
+        "name": "1974年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 800,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19742",
+        "name": "1974年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 810,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19743",
+        "name": "1974年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 820,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19744",
+        "name": "1974年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 830,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19751",
+        "name": "1975年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 840,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19752",
+        "name": "1975年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 850,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19753",
+        "name": "1975年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 860,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19754",
+        "name": "1975年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 870,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19761",
+        "name": "1976年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 880,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19762",
+        "name": "1976年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 890,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19763",
+        "name": "1976年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 900,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19764",
+        "name": "1976年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 910,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19771",
+        "name": "1977年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 920,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19772",
+        "name": "1977年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 930,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19773",
+        "name": "1977年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 940,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19774",
+        "name": "1977年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 950,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19781",
+        "name": "1978年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 960,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19782",
+        "name": "1978年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 970,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19783",
+        "name": "1978年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 980,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19784",
+        "name": "1978年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 990,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19791",
+        "name": "1979年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1000,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19792",
+        "name": "1979年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1010,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19793",
+        "name": "1979年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1020,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19794",
+        "name": "1979年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1030,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19801",
+        "name": "1980年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1040,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19802",
+        "name": "1980年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1050,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19803",
+        "name": "1980年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1060,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19804",
+        "name": "1980年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1070,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19811",
+        "name": "1981年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1080,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19812",
+        "name": "1981年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1090,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19813",
+        "name": "1981年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1100,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19814",
+        "name": "1981年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1110,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19821",
+        "name": "1982年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1120,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19822",
+        "name": "1982年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1130,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19823",
+        "name": "1982年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1140,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19824",
+        "name": "1982年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1150,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19831",
+        "name": "1983年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1160,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19832",
+        "name": "1983年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1170,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19833",
+        "name": "1983年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1180,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19834",
+        "name": "1983年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1190,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19841",
+        "name": "1984年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1200,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19842",
+        "name": "1984年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1210,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19843",
+        "name": "1984年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1220,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19844",
+        "name": "1984年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1230,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19851",
+        "name": "1985年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1240,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19852",
+        "name": "1985年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1250,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19853",
+        "name": "1985年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1260,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19854",
+        "name": "1985年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1270,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19861",
+        "name": "1986年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1280,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19862",
+        "name": "1986年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1290,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19863",
+        "name": "1986年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1300,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19864",
+        "name": "1986年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1310,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19871",
+        "name": "1987年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1320,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19872",
+        "name": "1987年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1330,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19873",
+        "name": "1987年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1340,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19874",
+        "name": "1987年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1350,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19881",
+        "name": "1988年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1360,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19882",
+        "name": "1988年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1370,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19883",
+        "name": "1988年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1380,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19884",
+        "name": "1988年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1390,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19891",
+        "name": "1989年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1400,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19892",
+        "name": "1989年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1410,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19893",
+        "name": "1989年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1420,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19894",
+        "name": "1989年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1430,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19901",
+        "name": "1990年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1440,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19902",
+        "name": "1990年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1450,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19903",
+        "name": "1990年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1460,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19904",
+        "name": "1990年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1470,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19911",
+        "name": "1991年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1480,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19912",
+        "name": "1991年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1490,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19913",
+        "name": "1991年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1500,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19914",
+        "name": "1991年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1510,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19921",
+        "name": "1992年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1520,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19922",
+        "name": "1992年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1530,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19923",
+        "name": "1992年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1540,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19924",
+        "name": "1992年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1550,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19931",
+        "name": "1993年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1560,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19932",
+        "name": "1993年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1570,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19933",
+        "name": "1993年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1580,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19934",
+        "name": "1993年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1590,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19941",
+        "name": "1994年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1600,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19942",
+        "name": "1994年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1610,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19943",
+        "name": "1994年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1620,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19944",
+        "name": "1994年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1630,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19951",
+        "name": "1995年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1640,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19952",
+        "name": "1995年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1650,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19953",
+        "name": "1995年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1660,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19954",
+        "name": "1995年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1670,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19961",
+        "name": "1996年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1680,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19962",
+        "name": "1996年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1690,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19963",
+        "name": "1996年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1700,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19964",
+        "name": "1996年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1710,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19971",
+        "name": "1997年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1720,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19972",
+        "name": "1997年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1730,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19973",
+        "name": "1997年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1740,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19974",
+        "name": "1997年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1750,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19981",
+        "name": "1998年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1760,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19982",
+        "name": "1998年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1770,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19983",
+        "name": "1998年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1780,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19984",
+        "name": "1998年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1790,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19991",
+        "name": "1999年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1800,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19992",
+        "name": "1999年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1810,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19993",
+        "name": "1999年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1820,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "19994",
+        "name": "1999年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1830,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20001",
+        "name": "2000年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1840,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20002",
+        "name": "2000年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1850,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20003",
+        "name": "2000年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1860,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20004",
+        "name": "2000年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1870,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20011",
+        "name": "2001年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1880,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20012",
+        "name": "2001年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1890,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20013",
+        "name": "2001年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1900,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20014",
+        "name": "2001年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1910,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20021",
+        "name": "2002年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1920,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20022",
+        "name": "2002年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1930,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20023",
+        "name": "2002年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1940,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20024",
+        "name": "2002年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1950,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20031",
+        "name": "2003年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1960,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20032",
+        "name": "2003年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1970,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20033",
+        "name": "2003年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1980,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20034",
+        "name": "2003年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 1990,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20041",
+        "name": "2004年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2000,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20042",
+        "name": "2004年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2010,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20043",
+        "name": "2004年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2020,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20044",
+        "name": "2004年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2030,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20051",
+        "name": "2005年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2040,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20052",
+        "name": "2005年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2050,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20053",
+        "name": "2005年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2060,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20054",
+        "name": "2005年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2070,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20061",
+        "name": "2006年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2080,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20062",
+        "name": "2006年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2090,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20063",
+        "name": "2006年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2100,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20064",
+        "name": "2006年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2110,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20071",
+        "name": "2007年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2120,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20072",
+        "name": "2007年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2130,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20073",
+        "name": "2007年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2140,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20074",
+        "name": "2007年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2150,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20081",
+        "name": "2008年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2160,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20082",
+        "name": "2008年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2170,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20083",
+        "name": "2008年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2180,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20084",
+        "name": "2008年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2190,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20091",
+        "name": "2009年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2200,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20092",
+        "name": "2009年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2210,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20093",
+        "name": "2009年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2220,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20094",
+        "name": "2009年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2230,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20101",
+        "name": "2010年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2240,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20102",
+        "name": "2010年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2250,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20103",
+        "name": "2010年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2260,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20104",
+        "name": "2010年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2270,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20111",
+        "name": "2011年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2280,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20112",
+        "name": "2011年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2290,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20113",
+        "name": "2011年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2300,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20114",
+        "name": "2011年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2310,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20121",
+        "name": "2012年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2320,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20122",
+        "name": "2012年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2330,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20123",
+        "name": "2012年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2340,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20124",
+        "name": "2012年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2350,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20131",
+        "name": "2013年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2360,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20132",
+        "name": "2013年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2370,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20133",
+        "name": "2013年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2380,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20134",
+        "name": "2013年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2390,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20141",
+        "name": "2014年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2400,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20142",
+        "name": "2014年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2410,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20143",
+        "name": "2014年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2420,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20144",
+        "name": "2014年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2430,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20151",
+        "name": "2015年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2440,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20152",
+        "name": "2015年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2450,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20153",
+        "name": "2015年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2460,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20154",
+        "name": "2015年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2470,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20161",
+        "name": "2016年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2480,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20162",
+        "name": "2016年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2490,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20163",
+        "name": "2016年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2500,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20164",
+        "name": "2016年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2510,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20171",
+        "name": "2017年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2520,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20172",
+        "name": "2017年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2530,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20173",
+        "name": "2017年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2540,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20174",
+        "name": "2017年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2550,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20181",
+        "name": "2018年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2560,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20182",
+        "name": "2018年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2570,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20183",
+        "name": "2018年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2580,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20184",
+        "name": "2018年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2590,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20191",
+        "name": "2019年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2600,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20192",
+        "name": "2019年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2610,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20193",
+        "name": "2019年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2620,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20194",
+        "name": "2019年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2630,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20201",
+        "name": "2020年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2640,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20202",
+        "name": "2020年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2650,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20203",
+        "name": "2020年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2660,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20204",
+        "name": "2020年10-12月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2680,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20211",
+        "name": "2021年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2690,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20212",
+        "name": "2021年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2700,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20213",
+        "name": "2021年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2710,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20214",
+        "name": "2021年10 - 12 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2720,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20221",
+        "name": "2022年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2730,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20222",
+        "name": "2022年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2740,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20223",
+        "name": "2022年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2750,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20224",
+        "name": "2022年10 - 12 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2760,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20231",
+        "name": "2023年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2770,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20232",
+        "name": "2023年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2780,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20233",
+        "name": "2023年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2790,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20234",
+        "name": "2023年10 - 12 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2800,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20241",
+        "name": "2024年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2810,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20242",
+        "name": "2024年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2820,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20243",
+        "name": "2024年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2830,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20244",
+        "name": "2024年10 - 12 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2840,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20251",
+        "name": "2025年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2850,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20252",
+        "name": "2025年4 - 6 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2860,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20253",
+        "name": "2025年7 - 9 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2870,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20254",
+        "name": "2025年10 - 12 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2880,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      },
+      {
+        "code": "20261",
+        "name": "2026年1 - 3 月",
+        "kana": "",
+        "classLevel": 2,
+        "parentCode": "",
+        "seqNo": 2890,
+        "masterFlg": 0,
+        "explanation": "",
+        "unitName": "",
+        "unitExplanation": "",
+        "selected": true,
+        "picked": false
+      }
+    ]
+  },
+  "canonical_metric_map": {
+    "sales": {
+      "code": "078",
+      "source_name": "売上高(当期末)",
+      "metric_label_ja": "売上高",
+      "source_unit": "百万円"
+    },
+    "operating_profit": {
+      "code": "081",
+      "source_name": "営業利益(当期末)",
+      "metric_label_ja": "営業利益",
+      "source_unit": "百万円"
+    },
+    "ordinary_profit": {
+      "code": "086",
+      "source_name": "経常利益(当期末)",
+      "metric_label_ja": "経常利益",
+      "source_unit": "百万円"
+    },
+    "capex_including_software": {
+      "code": "040",
+      "source_name": "設備投資(当期末新設固定資産合計)",
+      "metric_label_ja": "設備投資（ソフトウェア込み）",
+      "source_unit": "百万円"
+    },
+    "capex_excluding_software": {
+      "code": "225",
+      "source_name": "ソフトウェアを除く設備投資(当期末新設固定資産)",
+      "metric_label_ja": "設備投資（ソフトウェア除く）",
+      "source_unit": "百万円"
+    }
+  },
+  "created_at": "2026-08-25T13:43:54.499374+00:00"
+}

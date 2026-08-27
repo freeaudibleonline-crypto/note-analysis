@@ -1,0 +1,60 @@
+{
+  "CONFIG_KIND": "EXECUTABLE_STAGE3_CONFIGURATION",
+  "base_release_config": "config/release_2026Q1.json",
+  "stage2_config": "config/stage2_2026Q1.json",
+  "output_id": "2026Q1_v3",
+  "baseline_pytest_collection_count": 95,
+  "protected_output_directories": [
+    "outputs/2026Q1",
+    "outputs/2026Q1_v2"
+  ],
+  "clean_archive_exclusions": [
+    "__MACOSX",
+    "__pycache__",
+    ".DS_Store",
+    ".pytest_cache"
+  ],
+  "continuing_sample": {
+    "url": "https://www.mof.go.jp/pri/reference/ssc/results/keizoku.pdf",
+    "results_page_url": "https://www.mof.go.jp/pri/reference/ssc/results/data.htm",
+    "publication_date": "2026-06-01",
+    "public_target_period": "2026Q1",
+    "first_comparison_period": "2016Q1",
+    "last_comparison_period": "2026Q1",
+    "coverage_scope": "EXCL_FINANCE_INSURANCE",
+    "profit_standard_error_rate_status": "NOT_CALCULATED_BY_MOF"
+  },
+  "nonoperating_bridge": {
+    "estat_sid": "0003060191",
+    "table_number": "1",
+    "coverage_scope": "EXCL_FINANCE_INSURANCE",
+    "metric_codes": {
+      "operating_profit": "081",
+      "interest_received": "082",
+      "other_non_operating_revenue": "083",
+      "interest_expense": "084",
+      "other_non_operating_expense": "085",
+      "ordinary_profit": "086"
+    },
+    "target_exact_net_improvement_oku_yen": 15606.62,
+    "target_rounded_deltas_oku_yen": {
+      "interest_received": 152,
+      "other_non_operating_revenue": 15424,
+      "interest_expense": 6760,
+      "other_non_operating_expense": -6790,
+      "net_non_operating_improvement": 15606
+    },
+    "amount_tolerance_oku_yen": 0.01,
+    "identity_tolerance_oku_yen": 0.02
+  },
+  "publication": {
+    "allowed_decisions": [
+      "PUBLISH_SAMPLE_CONSTRUCTION_SENSITIVITY",
+      "PUBLISH_FULL_NONOPERATING_BRIDGE_SNAPSHOT",
+      "ARCHIVE_NO_ROBUST_STORY"
+    ],
+    "forbidden_headline_if_small_margin_direction_reverses": "SMALL_CAPITAL_MARGIN_DECLINE_AS_ROBUST_FACT",
+    "maximum_article_charts": 3,
+    "inclusive_percentile_column_suffix": "_inclusive_pct"
+  }
+}
